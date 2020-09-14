@@ -11,3 +11,7 @@
 | 페이지 명   |      기획서 페이지      |  링크 |
 |----------|:-------------:|------:|
 | 메인페이지 |  - | [:link:](https://suspicious-jackson-d2abd5.netlify.app/) |
+
+## 개발 전달 소스
+- 상단 녹색 `Code` 버튼 클릭, `Download ZIP` 퍼블리싱 소스 다운로드
+- `dist` 폴더 확인
