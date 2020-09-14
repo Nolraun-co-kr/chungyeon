@@ -11,30 +11,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cbdca2e9-b626-4f98-bc96-01cbd6d92563" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/dev/assets/scss/components/_container.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev/assets/scss/components/_deliveryList.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev/assets/scss/components/_gallery.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev/assets/scss/components/_loader.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev/assets/scss/components/_modal.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev/assets/scss/components/_morebtn.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev/assets/scss/components/_productList.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev/assets/scss/components/_quick.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev/assets/scss/components/_visual.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev/assets/scss/pages/_main.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev/layout/loader.njk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev/layout/quick.njk" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev/assets/js/function.js" beforeDir="false" afterPath="$PROJECT_DIR$/dev/assets/js/function.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev/assets/scss/base/_base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dev/assets/scss/base/_base.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev/assets/scss/components/footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dev/assets/scss/components/_footer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev/assets/scss/components/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dev/assets/scss/components/_header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev/assets/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dev/assets/scss/main.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dev/index.njk" beforeDir="false" afterPath="$PROJECT_DIR$/dev/index.njk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev/layout/base.njk" beforeDir="false" afterPath="$PROJECT_DIR$/dev/layout/base.njk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev/layout/footer.njk" beforeDir="false" afterPath="$PROJECT_DIR$/dev/layout/footer.njk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev/layout/header.njk" beforeDir="false" afterPath="$PROJECT_DIR$/dev/layout/header.njk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +53,7 @@
       <updated>1600084100130</updated>
       <workItem from="1600084101294" duration="39000" />
       <workItem from="1600084153837" duration="386000" />
-      <workItem from="1600084655288" duration="18587000" />
+      <workItem from="1600084655288" duration="18756000" />
     </task>
     <servers />
   </component>
