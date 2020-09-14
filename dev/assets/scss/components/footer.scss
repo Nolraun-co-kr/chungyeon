@@ -1,0 +1,86 @@
+.footer {
+  letter-spacing: -.075em;
+}
+.footer__links {
+  a {
+    white-space: nowrap;
+    font-size: 14px;
+    color:#666666;
+    margin-right: 20px;
+  }
+}
+.footer__bank {
+  p {
+    font-size: 14px;
+    white-space: nowrap;
+    color:#777777;
+    @apply mr-4;
+  }
+  strong {
+    @apply text-color5;
+  }
+}
+.footer__kakao {
+  @apply text-color3 text-sm;
+  white-space: nowrap;
+  padding-left: 40px;
+  line-height: 35px;
+  background: url('../images/icon-kakao.png') no-repeat left center;
+  background-size: auto 35px;
+}
+.footer__top {
+  .col {
+    height: 60px;
+    @apply items-center;
+  }
+}
+.footer__bottom {
+  padding: 40px 0;
+}
+.footer__logo {
+  flex: none;
+  width: 102px;
+}
+.footer__info {
+  letter-spacing: -.05em;
+  font-size: 14px;
+  line-height: 22px;
+  color:#666666;
+  strong {
+    color:#333;
+  }
+}
+
+.footer__customer {
+  letter-spacing: -.05em;
+  font-size: 14px;
+  line-height: 22px;
+  color:#666666;
+  strong {
+    color:#333;
+  }
+
+  .footer__number {
+    @apply text-color5;
+    a {
+      font-size: 24px;
+      line-height: 24px;
+      font-weight: 600;
+      letter-spacing: 0;
+      background: url('../images/icon-tel.png') no-repeat left 2px;
+      padding-left: 27px;
+      margin-right: 10px;
+    }
+    span {
+      color:#666666;
+      margin-right: 5px;
+    }
+  }
+}
+.row {
+  @apply border-t;
+  border-color:#ddd;
+
+  .col {
+  }
+}

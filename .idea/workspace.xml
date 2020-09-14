@@ -11,7 +11,58 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cbdca2e9-b626-4f98-bc96-01cbd6d92563" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.babelrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/js/function.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/js/modal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/basictable-master/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/basictable-master/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/basictable-master/basictable.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/basictable-master/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/basictable-master/demo/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/basictable-master/demo/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/basictable-master/jquery.basictable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/basictable-master/jquery.basictable.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/basictable-master/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/jquery-ui-1.12.1/AUTHORS.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/jquery-ui-1.12.1/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/jquery-ui-1.12.1/images/ui-icons_444444_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/jquery-ui-1.12.1/images/ui-icons_555555_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/jquery-ui-1.12.1/images/ui-icons_777620_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/jquery-ui-1.12.1/images/ui-icons_777777_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/jquery-ui-1.12.1/images/ui-icons_cc0000_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/jquery-ui-1.12.1/images/ui-icons_ffffff_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/jquery-ui-1.12.1/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/jquery-ui-1.12.1/jquery-ui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/jquery-ui-1.12.1/jquery-ui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/jquery-ui-1.12.1/jquery-ui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/jquery-ui-1.12.1/jquery-ui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/jquery-ui-1.12.1/jquery-ui.structure.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/jquery-ui-1.12.1/jquery-ui.structure.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/jquery-ui-1.12.1/jquery-ui.theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/jquery-ui-1.12.1/jquery-ui.theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/jquery-ui-1.12.1/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/jquery/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/niceScroll.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/slick/slick.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/slick/slick.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/scss/base/_base.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/scss/components/footer.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/scss/components/header.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/scss/main.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/index.njk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/layout/base.njk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/layout/footer.njk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/layout/header.njk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulpfile.babel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/chungyeon.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +84,14 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="tasks.servers" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -44,6 +102,8 @@
       <option name="presentableId" value="Default" />
       <updated>1600084100130</updated>
       <workItem from="1600084101294" duration="39000" />
+      <workItem from="1600084153837" duration="386000" />
+      <workItem from="1600084655288" duration="3416000" />
     </task>
     <servers />
   </component>
@@ -60,5 +120,16 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2388" y="310" key="SettingsEditor" timestamp="1600084949202">
+      <screen x="1920" y="143" width="1920" height="1057" />
+    </state>
+    <state x="2388" y="310" key="SettingsEditor/1920.143.1920.1057/0.23.1920.1177@1920.143.1920.1057" timestamp="1600084949202" />
+    <state x="2588" y="363" key="Vcs.Push.Dialog.v2" timestamp="1600084219262">
+      <screen x="1920" y="143" width="1920" height="1057" />
+    </state>
+    <state x="2588" y="363" key="Vcs.Push.Dialog.v2/1920.143.1920.1057/0.23.1920.1177@1920.143.1920.1057" timestamp="1600084219262" />
   </component>
 </project>
