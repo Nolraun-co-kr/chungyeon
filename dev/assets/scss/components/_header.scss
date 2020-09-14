@@ -1,13 +1,24 @@
 .header {
   background:#fff;
+  position: fixed;
+  @apply left-0 top-0 w-full;
+  z-index: 8000;
 }
 .header__top {
   .wrap {
     height: 120px;
+    transition: all .3s;
+    .scrolled & {
+      height: 70px;
+    }
   }
 }
 .header__logo {
   margin-right: 50px;
+
+  img {
+    height: 53px;
+  }
 }
 .header__search {
 }
@@ -30,16 +41,22 @@
   }
 }
 .header__etc {
+  margin-left: 60px;
+  height: 20px;
   a {
     @apply relative;
     font-size: 14px;
     padding:0 1em;
     font-weight: 500;
+    white-space: nowrap;
 
     &:first-child {
       &:after {
         display: none;
       }
+    }
+    &:last-child {
+      padding-right: 0;
     }
     &:after {
       position: absolute;

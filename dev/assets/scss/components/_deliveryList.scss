@@ -1,0 +1,41 @@
+.deliveryList {}
+.deliveryList__item {
+  &:first-child {
+    border-top: 1px solid #dddddd;
+  }
+  border-bottom: 1px solid #dddddd;
+  @apply flex items-center;
+  height: 90px;
+  font-size: 14px;
+
+  .thumb {
+    flex: none;
+    width: 50px;
+    margin-right: 15px;
+  }
+  .name {
+    @apply flex-1;
+    letter-spacing: -.05em;
+    max-width: calc(100% - 215px);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;;
+  }
+  .price {
+    @apply text-color5;
+    width: 70px;
+    flex: none;
+    text-align: right;
+  }
+
+  a {
+    letter-spacing: -.075em;
+    font-size: 13px;
+    color:#fff;
+    background:#507a19;
+    line-height: 30px;
+    width: 80px;
+    text-align: center;
+    margin-left: 25px;
+  }
+}

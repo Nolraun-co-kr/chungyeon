@@ -1,0 +1,17 @@
+.morebtn {
+  margin-top: 40px;
+
+  a {
+    @apply flex mx-auto justify-center bg-white;
+    width: 500px;
+    height: 50px;
+    line-height: 48px;
+    border: 1px solid #dddddd;
+
+    span {
+      font-size: 15px;
+      background: url('../images/icon-more.png') no-repeat right center;
+      padding-right: 15px;
+    }
+  }
+}

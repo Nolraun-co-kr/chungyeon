@@ -1,5 +1,14 @@
 .footer {
   letter-spacing: -.075em;
+
+  .row {
+    @apply border-t;
+    border-color:#ddd;
+
+    .col {
+    }
+  }
+
 }
 .footer__links {
   a {
@@ -75,12 +84,5 @@
       color:#666666;
       margin-right: 5px;
     }
-  }
-}
-.row {
-  @apply border-t;
-  border-color:#ddd;
-
-  .col {
   }
 }

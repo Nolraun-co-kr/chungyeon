@@ -14,8 +14,9 @@ body {
   min-width: 1220px;
   color:#333;
 }
+
 .wrap {
-  width: 1220px;
+  width: 1200px;
   margin: 0 auto;
   padding:0 10px;
 }
@@ -33,4 +34,8 @@ button,
 select,
 textarea {
   outline-width: 0;
+}
+
+img {
+  vertical-align: top;
 }

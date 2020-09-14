@@ -1,0 +1,130 @@
+.quick {
+  @apply absolute text-center;
+  z-index: 9500;
+  width: 70px;
+  right: 50%;
+  margin-right: -720px;
+  top: 725px;
+
+  .scrolled & {
+    top: 675px;
+  }
+
+  &.fixed {
+    @apply fixed;
+    top: 175px;
+  }
+
+  .link {
+    @apply shadow-lg;
+    display: inline-block;
+    margin-top: 10px;
+    border-radius: 50%;
+    width: 64px;
+    height: 65px;
+    overflow: hidden;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .quick__links {
+    @apply bg-white;
+    border: 1px solid #dddddd;
+
+    a {
+      height: 70px;
+      @apply flex flex-col items-center justify-center;
+      border-bottom: 1px solid #ddd;
+
+      &:hover {
+        background:#507a19;
+
+        p {
+          @apply text-white;
+        }
+      }
+
+      &:last-child {
+        @apply border-none;
+      }
+    }
+    p {
+      letter-spacing: -.075em;
+      @apply text-center text-xs;
+      font-size: #888888;
+      line-height: 14px;
+    }
+
+    i {
+      @apply block w-full mb-2;
+    }
+    a.delivery{
+      i {
+        background: url('../images/quick-1.png') no-repeat center;height: 20px;
+      }
+      &:hover {
+        i {
+          background: url('../images/quick-1-active.png') no-repeat center;height: 20px;
+        }
+      }
+
+    }
+    a.notice{
+      i {
+        background: url('../images/quick-2.png') no-repeat center;height: 22px;
+      }
+      &:hover {
+        i {
+          background: url('../images/quick-2-active.png') no-repeat center;height: 22px;
+        }
+      }
+
+    }
+    a.event{
+      i {
+        background: url('../images/quick-3.png') no-repeat center;height: 26px;
+      }
+      &:hover {
+        i {
+          background: url('../images/quick-3-active.png') no-repeat center;height: 26px;
+        }
+      }
+
+    }
+    a.faq{
+      i {
+        background: url('../images/quick-4.png') no-repeat center;height: 22px;
+      }
+      &:hover {
+        i {
+          background: url('../images/quick-4-active.png') no-repeat center;height: 22px;
+        }
+      }
+
+    }
+    a.cyber{
+      i {
+        background: url('../images/quick-5.png') no-repeat center;height: 22px;
+      }
+      &:hover {
+        i {
+          background: url('../images/quick-5-active.png') no-repeat center;height: 22px;
+        }
+      }
+
+    }
+    a.qna{
+      i {
+        background: url('../images/quick-6.png') no-repeat center;height: 24px;
+      }
+      &:hover {
+        i {
+          background: url('../images/quick-6-active.png') no-repeat center;height: 24px;
+        }
+      }
+
+    }
+  }
+}
+

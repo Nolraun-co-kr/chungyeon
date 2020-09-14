@@ -1,0 +1,33 @@
+.gallery {
+
+  ul {
+    @apply flex flex-wrap;
+    margin:0 -10px;
+  }
+  .gallery__item {
+    width: 33.33%;
+    padding:0 10px;
+    flex: none;
+    &:nth-child(n + 4) {
+      margin-top: 20px;
+    }
+
+    .info {
+      @apply text-center py-4;
+      letter-spacing: -.075em;
+    }
+    h3 {
+      font-size: 18px;
+      strong {
+        @apply ml-1;
+        color:#f85b1d;
+      }
+    }
+    p {
+      font-weight: 300;
+      color:#777777;
+      font-size: 14px;
+      margin-top: 5px;
+    }
+  }
+}

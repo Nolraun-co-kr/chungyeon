@@ -1,6 +1,193 @@
 {% extends 'layout/base.njk' %}
 {% block content %}
-    <div class="container">
-        main
+<div class="main">
+    <div class="section ">
+        <div class="visual">
+            <div class="visual__content">
+                <a href=""><img src="./assets/images/visual-1.png" alt=""></a>
+                <a href=""><img src="./assets/images/visual-1.png" alt=""></a>
+                <a href=""><img src="./assets/images/visual-1.png" alt=""></a>
+            </div>
+            <div class="visual__notice">
+                <div class="row">
+                    <div class="name">
+                        <a href=""><span>청연알림</span></a>
+                    </div>
+                    <div class="flex-1 visual__notice-slide">
+                        {% for i in ['한줄 내용이 나타나는 곳입니다.', '한줄 내용이 나타나는 곳입니다.', '한줄 내용이 나타나는 곳입니다.'] %}
+                        <a href="">
+                            <p>{{ i }}</p>
+                            <span>2020-08-13</span>
+                        </a>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
+    <div class="section">
+        <div class="main__prescription">
+            <div class="wrap flex">
+                <a href=""><img src="./assets/images/prescription-1.png" alt=""></a>
+                <a href=""><img src="./assets/images/prescription-2.png" alt=""></a>
+                <a href=""><img src="./assets/images/prescription-3.png" alt=""></a>
+            </div>
+        </div>
+    </div>
+
+    {% for title in ['기획전', '공진단', '경옥고'] %}
+    <div class="section">
+        <div class="wrap">
+            <div class="productList">
+                <h2 class="section__title text-center">{{ title }}</h2>
+                <ul class="">
+                    {% for i in [1,2,3,4] %}
+                    <li class="productList__item">
+                        <div class="productList__content">
+                            <div class="thumbnail">
+                                <div class="labels">
+                                    <span class="discount">
+                                        <strong>30%</strong>
+                                        추가할인
+                                    </span>
+                                </div>
+                                <img src="./assets/images/prd1.png" alt="">
+                            </div>
+                            <div class="info">
+                                <div class="flex">
+                                    <span>사전처방 필요</span> 제조기간 1일
+                                </div>
+                                <p class="description">상품 설명이 들어가는 곳입니다.</p>
+                            </div>
+                            <div class="actions">
+                                <a href="" class="button"><span>사전처방</span></a>
+                                <a href="javascript:getDeliveryItem(1)" class="button"><span class="delivery">발송요청</span></a>
+                            </div>
+                        </div>
+                    </li>
+                    {% endfor %}
+                </ul>
+                <div class="morebtn">
+                    <a href=""><span>더보기</span></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+    <div class="section">
+        <div class="wrap">
+            <div class="gallery">
+                <h2 class="section__title text-center">이벤트</h2>
+                <ul>
+                    {% for i in [1,2,3] %}
+                        <li class="gallery__item">
+                            <a href="">
+                                <div class="thumbnail">
+                                    <img src="./assets/images/prd2.png" alt="">
+                                </div>
+                                <div class="info">
+                                    <h3>이벤트 제목이 들어가는 곳입니다. <strong>~30%</strong></h3>
+                                    <p>상세설명이 들어가는 곳입니다. 천연한방병원 원외탕전실 </p>
+                                </div>
+                            </a>
+                        </li>
+                    {% endfor %}
+                </ul>
+                <div class="morebtn">
+                    <a href=""><span>더보기</span></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section main__notice">
+        <div class="wrap">
+            <div class="notice">
+                <h2 class="section__title text-center">공지사항</h2>
+                <div class="notice__content">
+                    <ul>
+                        {% for i in [1,2,3,4,5,6,7] %}
+                        <li class="notice__item">
+                            <a href="">
+                                <div class="category">
+                                    <span class="bg-color{{ i }}">공지사항</span>
+                                </div>
+                                <p>한의원의 부속시설로 최선을 다하겠습니다.</p>
+                                <span class="date">2020.08.04</span>
+                            </a>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                    <div class="morebtn">
+                        <a href=""><span>더보기</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- modal -->
+<div class="modal" id="modalDeliveryList">
+    <div class="modal__content">
+        <header class="modal__header">
+            <h2 class="modal__title">발송가능 상품</h2>
+            <button class="modal__close">닫기</button>
+        </header>
+        <div class="modal__body">
+            <div class="deliveryList">
+                <ul id="deliveryList">
+                    {% for i in [1,2] %}
+                        <li class="deliveryList__item">
+                            <div class="thumb">
+                                <img src="http://via.placeholder.com/50x50" alt="">
+                            </div>
+                            <p class="name">[무금박 공진단] 침향 60환 + 목향60환 사탕포장+ 목향60환 사탕포장</p>
+                            <strong class="price">272,000</strong>
+                            <a href="">발송요청</a>
+                        </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block script %}
+<script>
+    function getDeliveryItem(id) {
+      $('#loader').addClass('js-active');
+      $('body').css('overflow', 'hidden');
+      setTimeout(function(){
+        $.ajax({
+          type: 'GET',
+          url: 'https://jsonplaceholder.typicode.com/todos',
+          data: { id: id },
+          success: function (res) {
+            var item = '';
+            $('#deliveryList').html('');
+            res.map(function(data, idx) {
+              // TODO: 데이터에 맞게 입력
+              item += '<li class="deliveryList__item">\n' +
+                '        <div class="thumb">\n' +
+                '          <img src="http://via.placeholder.com/50x50" alt="">\n' +
+                '        </div>\n' +
+                '        <p class="name">발송요청 가능한 상품들...</p>\n' +
+                '        <strong class="price">272,000</strong>\n' +
+                '        <a href="?#'+data.id+'">발송요청</a>\n' +
+                '      </li>';
+              $('#deliveryList').append(item);
+            });
+          },
+          error: function(error) {
+            console.error(error);
+            alert('발송가능 상품을 가져오지 못했습니다.');
+          },
+          complete: function(res) {
+            $('#loader').removeClass('js-active');
+          }
+        }, $('#modalDeliveryList').addClass('js-active'));
+      }, 2000)
+    }
+</script>
 {% endblock %}

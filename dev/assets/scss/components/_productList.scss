@@ -1,0 +1,104 @@
+.productList {
+  padding-bottom: 55px;
+  border-bottom: 1px solid #ddd;
+
+  ul {
+    @apply flex flex-wrap;
+    margin:0 -10px;
+  }
+  .productList__item {
+    width: 25%;
+    padding:0 10px;
+    flex: none;
+    &:nth-child(n + 5) {
+      margin-top: 20px;
+    }
+  }
+  .productList__content {
+    border: 1px solid #f2f2f2;
+    .thumbnail {
+      @apply relative;
+      border-bottom: 1px solid #f2f2f2;
+      z-index: 50;
+    }
+    .actions {
+      @apply flex;
+      .button {
+        @apply flex-1 text-center bg-white;
+        border-right: 1px solid #f2f2f2;
+        letter-spacing: -.075em;
+        &:last-child {
+          border: none;
+        }
+
+        span {
+          font-size: 13px;
+          padding-left: 25px;
+          line-height: 45px;
+          background: url('../images/icon-prescription.png') no-repeat left center;
+          &.delivery {
+            padding-left: 30px;
+            background: url('../images/icon-delivery.png') no-repeat left center;
+          }
+        }
+        &:hover {
+          @apply bg-color6;
+          span {
+            @apply text-white;
+            background: url('../images/icon-prescription-active.png') no-repeat left center;
+            &.delivery {
+              background: url('../images/icon-delivery-active.png') no-repeat left center;
+            }
+          }
+        }
+      }
+    }
+    .info {
+      border-bottom: 1px solid #f2f2f2;
+      padding: 20px;
+      letter-spacing: -0.075em;
+      div {
+        line-height:24px;
+        font-size: 12px;
+        span {
+          background:#94734f;
+          padding:0 8px;
+          margin-right: 5px;
+          color:#fff;
+          line-height:24px;
+        }
+      }
+      .description {
+        margin-top: 10px;
+        line-height: 1em;
+        color:#333333;
+        font-size: 15px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+
+    }
+    .labels {
+      @apply absolute left-0 top-0;
+      width: 60px;
+
+      span {
+        @apply flex items-center justify-center flex-col;
+        height: 60px;
+        text-align: center;
+        font-size: 12px;
+        line-height: 1.5em;
+
+        strong {
+          font-size: 18px;
+        }
+
+        &.discount {
+          background: #f85b1d;
+          color: #fff;
+        }
+      }
+    }
+  }
+}

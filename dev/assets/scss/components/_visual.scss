@@ -1,0 +1,118 @@
+.visual {
+  background:#eee;
+  @apply relative;
+  z-index: 5000;
+  height: 500px;
+  overflow: hidden;
+
+  .visual__content {
+    @apply absolute;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+    min-width: 1920px;
+    width: 100%;
+    height: 500px;
+    a {
+      display: block !important;
+    }
+    img {
+      vertical-align: top;
+      margin:0 auto;
+    }
+    .slick-dots {
+      @apply absolute flex;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 1200px;
+      bottom: 20%;
+      li {
+        margin-right: 10px;
+        &.slick-active {
+          button {
+            opacity: 1;
+          }
+        }
+      }
+      button {
+        width : 14px;
+        height : 14px;
+        border-radius: 50%;
+        background:#fff;
+        text-indent:-9999px;
+        overflow: hidden;
+        opacity: .5;
+      }
+    }
+    .slick-arrow {
+      @apply absolute top-0;
+      z-index: 5000;
+      transition: all .3s;
+      &.slick-prev {
+        left: 0;
+        height: 100%;
+        width: 80px;
+        text-indent: -9999px;
+        overflow: hidden;
+        background: url('../images/visual-arrow-left.png') no-repeat center;
+        &:hover {
+          background: rgba(0,0,0,.5) url('../images/visual-arrow-left.png') no-repeat center;
+        }
+      }
+      &.slick-next {
+        right: 0;
+        height: 100%;
+        width: 80px;
+        text-indent: -9999px;
+        overflow: hidden;
+        background: url('../images/visual-arrow-right.png') no-repeat center;
+        &:hover {
+          background: rgba(0,0,0,.5) url('../images/visual-arrow-right.png') no-repeat center;
+        }
+      }
+    }
+  }
+
+  .visual__notice {
+    @apply absolute text-white;
+    left: 50%;
+    bottom: 0;
+    width: 1200px;
+    transform: translateX(-50%);
+    background: rgba(0,0,0,.6);
+
+    .name {
+      width: 150px;
+      line-height: 65px;
+      a {
+        @apply block text-center;
+
+        span {
+          padding-left: 23px;
+          background: url('../images/icon-alrim.png') no-repeat left center;
+        }
+      }
+    }
+  }
+}
+
+.visual__notice-slide {
+  a {
+    display: block !important;
+    line-height: 65px;
+    &:after {
+      content:'';
+      display: block;
+      clear:both;
+    }
+    p {
+      width: calc(100% - 170px);
+      float: left;
+    }
+    span {
+      width: 170px;
+      text-align: center;
+      float: left;
+    }
+  }
+}
