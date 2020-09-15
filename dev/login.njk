@@ -1,0 +1,49 @@
+{% extends 'layout/base.njk' %}
+{% block content %}
+    <div class="accounts">
+        <div class="wrap">
+            <div class="accounts__content">
+                <div class="form">
+                    <form action="" class="block">
+                        <div class="login">
+                            <h3 class="form__title">로그인</h3>
+                            <div class="row">
+                                <div class="col">
+                                    <div class="input">
+                                        <input type="text" placeholder="아이디">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row mt-2">
+                                <div class="col">
+                                    <div class="input">
+                                        <input type="password" placeholder="비밀번호">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row justify-between login__etc mt-2">
+                                <div class="col">
+                                    <label for="saveId" class="checkbox">
+                                        <input type="checkbox" hidden id="saveId" />
+                                        <span></span>
+                                        <p>아이디 저장</p>
+                                    </label>
+                                </div>
+                                <div class="col text-right">
+                                    <a href="">아이디/비밀번호 찾기</a>
+                                </div>
+                            </div>
+                            <div class="login__buttons">
+                                <button class="btn submit" type="submit">로그인</button>
+                                <a href="" class="btn mt-2">회원가입</a>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+
+{% block script %}
+{% endblock %}

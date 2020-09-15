@@ -11,8 +11,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cbdca2e9-b626-4f98-bc96-01cbd6d92563" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/dev/assets/images/breadcrumb-arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/scss/pages/_accounts.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/scss/pages/_privacy.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/login.njk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/privacy.njk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/signup1.njk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/signup2.njk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/signup3.njk" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/assets/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dev/assets/scss/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/css/main.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,12 +43,15 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/dev/assets/images" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="tasks.servers" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/dev/assets/images" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
@@ -54,7 +67,9 @@
       <workItem from="1600084101294" duration="39000" />
       <workItem from="1600084153837" duration="386000" />
       <workItem from="1600084655288" duration="18801000" />
-      <workItem from="1600108865440" duration="126000" />
+      <workItem from="1600108865440" duration="205000" />
+      <workItem from="1600151327210" duration="185000" />
+      <workItem from="1600153421579" duration="3382000" />
     </task>
     <servers />
   </component>
@@ -86,9 +101,9 @@
       <screen x="1920" y="143" width="1920" height="1057" />
     </state>
     <state x="2588" y="363" key="Vcs.Push.Dialog.v2/1920.143.1920.1057/0.23.1920.1177@1920.143.1920.1057" timestamp="1600084219262" />
-    <state x="2586" y="416" width="588" height="510" key="find.popup" timestamp="1600104138929">
+    <state x="2586" y="416" width="588" height="510" key="find.popup" timestamp="1600156384400">
       <screen x="1920" y="143" width="1920" height="1057" />
     </state>
-    <state x="2586" y="416" width="588" height="510" key="find.popup/1920.143.1920.1057/0.23.1920.1177@1920.143.1920.1057" timestamp="1600104138929" />
+    <state x="2586" y="416" width="588" height="510" key="find.popup/1920.143.1920.1057/0.23.1920.1177@1920.143.1920.1057" timestamp="1600156384400" />
   </component>
 </project>

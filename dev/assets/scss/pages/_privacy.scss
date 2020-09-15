@@ -1,0 +1,32 @@
+.privacy {
+  padding: 100px 0;
+
+  .privacy__title {
+    font-size: 28px;
+    letter-spacing: -.05em;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #999999;
+  }
+
+  .privacy__content {
+    padding: 40px 0;
+  }
+  h3 {
+    margin-top: 30px;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  li, p {
+    font-size: 14px;
+    color:#666;
+  }
+  ol {
+    padding-left: 16px;
+    list-style: decimal;
+  }
+  li {
+    &:nth-child(n+2) {
+      margin-top: 5px;
+    }
+  }
+}

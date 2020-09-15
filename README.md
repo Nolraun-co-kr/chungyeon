@@ -11,6 +11,11 @@
 | 페이지 명   |      기획서 페이지      |  링크 |
 |----------|:-------------:|------:|
 | 메인페이지 |  - | [:link:](https://suspicious-jackson-d2abd5.netlify.app/) |
+| 로그인 |  - | [:link:](https://suspicious-jackson-d2abd5.netlify.app/login.html) |
+| 회원가입-1 |  - | [:link:](https://suspicious-jackson-d2abd5.netlify.app/signup1.html) |
+| 회원가입-2 |  - | [:link:](https://suspicious-jackson-d2abd5.netlify.app/signup2.html) |
+| 회원가입-3 |  - | [:link:](https://suspicious-jackson-d2abd5.netlify.app/signup3.html) |
+| 약관/개인정보처리방침 |  - | [:link:](https://suspicious-jackson-d2abd5.netlify.app/privacy.html) |
 
 ## 개발 전달 소스
 - 상단 녹색 `Code` 버튼 클릭, `Download ZIP` 퍼블리싱 소스 다운로드

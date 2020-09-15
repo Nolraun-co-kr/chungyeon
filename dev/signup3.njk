@@ -1,0 +1,45 @@
+{% extends 'layout/base.njk' %}
+{% block content %}
+    <div class="accounts">
+        <div class="wrap">
+            <div class="accounts__content">
+                <div class="accounts__header">
+                    <h2>회원가입</h2>
+                    <div class="breadcrumb">
+                        <span class=""><strong>01</strong>약관동의</span>
+                        <span class=""><strong>02</strong>정보입력</span>
+                        <span class="active"><strong>03</strong>정보입력</span>
+                    </div>
+                </div>
+                <div class="accounts__body">
+                    <div class="signup">
+                        <div class="form">
+                            <div class="signup__result">
+                                <div class="signup__top">
+                                    <div class="icon flex justify-center"><img src="./assets/images/signup-top.png" alt=""></div>
+                                    <h3 class="signup__top-title">
+                                        회원가입이 완료 되었으며 관리자 승인 후 이용이 가능합니다. <br/>
+                                        한의사 회원은 다음과 같은 사용제한이 있습니다.
+                                    </h3>
+                                </div>
+                                <div class="signup__desc">
+                                    <p>
+                                        한의원 개설 등록증을 제외한모든 서류는 다운받으신 문서에 포함되어 있습니다.<br/>
+                                        *표시한 문서에 한의원 정보를 기입해주세요.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="accounts__btnbox mt-16">
+                                <a href="" class="btn">홈으로</a>
+                                <a href="" class="btn submit">로그인</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+
+{% block script %}
+{% endblock %}
