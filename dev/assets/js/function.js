@@ -1,10 +1,5 @@
 
 (function(window, $){
-  $.fn.delay = function(time, callback){
-    jQuery.fx.step.delay = function(){};
-    return this.animate({delay:1}, time, callback);
-  }
-
   $(function(){
     $(window).scroll(function(){
       var h = $(this).scrollTop();
@@ -46,6 +41,10 @@
     $('.modal').on('click', function(){
       $('body').css('overflow', 'auto');
       $(this).removeClass('js-active');
-    })
+    });
+
+    $('.file').on('change', function(e){
+      $(this).find('p').addClass('has-value').text(e.target.files[0].name);
+    });
   })
 })(window, $)
