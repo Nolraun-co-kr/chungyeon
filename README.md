@@ -11,10 +11,10 @@
 | 페이지 명   |      기획서 페이지      |  링크 |
 |----------|:-------------:|------:|
 | 메인페이지 |  3 - 10 | [:link:](https://suspicious-jackson-d2abd5.netlify.app/) |
-| 로그인 | 18 | [:link:](https://suspicious-jackson-d2abd5.netlify.app/login.html) |
 | 회원가입-1 |  12 | [:link:](https://suspicious-jackson-d2abd5.netlify.app/signup1.html) |
 | 회원가입-2 |  13 - 15 | [:link:](https://suspicious-jackson-d2abd5.netlify.app/signup2.html) |
 | 회원가입-3 |  16 | [:link:](https://suspicious-jackson-d2abd5.netlify.app/signup3.html) |
+| 로그인 | 18 | [:link:](https://suspicious-jackson-d2abd5.netlify.app/login.html) |
 | 약관/개인정보처리방침 | 19 - 22 | [:link:](https://suspicious-jackson-d2abd5.netlify.app/privacy.html) |
 
 ## 개발 전달 소스
