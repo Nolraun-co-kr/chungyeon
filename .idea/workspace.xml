@@ -12,16 +12,7 @@
   <component name="ChangeListManager">
     <list default="true" id="cbdca2e9-b626-4f98-bc96-01cbd6d92563" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev/assets/js/function.js" beforeDir="false" afterPath="$PROJECT_DIR$/dev/assets/js/function.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev/assets/scss/pages/_accounts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dev/assets/scss/pages/_accounts.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev/index.njk" beforeDir="false" afterPath="$PROJECT_DIR$/dev/index.njk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev/layout/base.njk" beforeDir="false" afterPath="$PROJECT_DIR$/dev/layout/base.njk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev/signup2.njk" beforeDir="false" afterPath="$PROJECT_DIR$/dev/signup2.njk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev/signup3.njk" beforeDir="false" afterPath="$PROJECT_DIR$/dev/signup3.njk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/ui.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/js/ui.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/signup2.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/signup2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/signup3.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/signup3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +59,7 @@
       <workItem from="1600084655288" duration="18801000" />
       <workItem from="1600108865440" duration="205000" />
       <workItem from="1600151327210" duration="185000" />
-      <workItem from="1600153421579" duration="6610000" />
+      <workItem from="1600153421579" duration="6821000" />
     </task>
     <servers />
   </component>
