@@ -20,6 +20,10 @@
       @apply relative;
       border-bottom: 1px solid #f2f2f2;
       z-index: 50;
+
+      img {
+        width: 100%;
+      }
     }
     .actions {
       @apply flex;

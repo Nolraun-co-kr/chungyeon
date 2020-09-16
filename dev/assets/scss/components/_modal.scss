@@ -46,4 +46,33 @@
     text-indent:-9999px;
     overflow: hidden;
   }
+
+
+
+  .productList {
+    padding: 0;
+    border: 0;
+  }
+  .productList__content {
+    border: none !important;
+    & > * {
+      border: none !important;
+    }
+    .info {
+      padding: 10px 0;
+    }
+
+    .actions {
+      margin-top: 5px;
+      a {
+        line-height: 28px;
+        font-size: 14px;
+        height: 30px;
+        @apply border border-color6 bg-color6 text-white w-full block text-center;
+        &.delivery {
+          @apply bg-white text-color6;
+        }
+      }
+    }
+  }
 }

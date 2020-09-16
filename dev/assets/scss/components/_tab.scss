@@ -1,0 +1,33 @@
+.tab {
+
+}
+.tab__nav {
+  margin-bottom: 15px;
+  @apply w-full flex;
+
+  .tab__navlink {
+    @apply flex-1 text-center;
+    border: 1px solid #dddddd;
+    border-bottom:1px solid #4b4643;
+    line-height: 40px;
+    color:#888;
+    font-size: 14px;
+
+    &.active {
+      color:#4b4643;
+      font-weight: 500;
+      border: 1px solid #4b4643;
+      border-bottom: none;
+    }
+  }
+}
+
+.tab__content {
+  .tab__panel {
+    display: none;
+
+    &.active {
+      display: block;
+    }
+  }
+}

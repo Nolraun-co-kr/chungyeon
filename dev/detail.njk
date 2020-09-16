@@ -1,0 +1,416 @@
+{% extends 'layout/base.njk' %}
+{% block content %}
+<div class="sub sub__detail">
+    <div class="wrap">
+
+        <!-- 제품 상세 상단 -->
+        <div class="product">
+            <div class="breadcrumb">
+                <span class="">Home</span>
+                <span class="">약속처방</span>
+                <span class="active">사전처방</span>
+            </div>
+            <div class="product__summary">
+                <div class="product__thumbnail">
+                    <div class="slider-for">
+                        {% for i in [1,2,3,4,5] %}
+                        <div class="product__thumb">
+                            <img src="./assets/images/prd-1.png" alt="">
+                        </div>
+                        {% endfor %}
+                    </div>
+                    <div class="slider-pagenation">
+                        <div class="slider-nav">
+                            {% for i in [1,2,3,4,5] %}
+                                <div class="product__thumb">
+                                    <img src="./assets/images/prd-1.png" alt="">
+                                </div>
+                            {% endfor %}
+                        </div>
+                    </div>
+                </div>
+                <div class="product__orderInfo">
+                    <h2 class="product__title"> [경옥고환] 30환 5박스</h2>
+                    <p class="product__description"> 여름철 갈증, 더위로 인한 원기와 진액 손상, 피로, 마른 기침</p>
+
+                    <div class="tab">
+                        <div class="tab__nav">
+                            <a href="" class="tab__navlink active" data-tablink="">사전처방 현황</a>
+                            <a href="" class="tab__navlink" data-tablink="">사전처방 내역</a>
+                        </div>
+                        <div class="tab__content">
+                            <div class="tab__panel active">
+                                <div class="summary-table">
+                                    <table>
+                                        <colgroup>
+                                            <col width="125">
+                                            <col width="225">
+                                            <col width="125">
+                                            <col width="225">
+                                        </colgroup>
+                                        <tbody>
+                                        <tr>
+                                            <th>처방명</th>
+                                            <td>벽문승방</td>
+                                            <th>제형</th>
+                                            <td>내용</td>
+                                        </tr>
+                                        <tr>
+                                            <th>약재구성</th>
+                                            <td colspan="3">내용 (100g 기준으로 구성)</td>
+                                        </tr>
+                                        <tr>
+                                            <th>조제법</th>
+                                            <td>내용</td>
+                                            <th>구성안내</th>
+                                            <td>내용</td>
+                                        </tr>
+                                        <tr>
+                                            <th>발송가능량</th>
+                                            <td>내용</td>
+                                            <th>만료일자</th>
+                                            <td>YYYY.MM.DD</td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                            <div class="tab__panel">
+                                <div class="summary-table">
+                                    <table class="prescription-history">
+                                        <colgroup>
+                                            <col >
+                                            <col >
+                                            <col >
+                                            <col >
+                                            <col >
+                                            <col >
+                                            <col width="60">
+                                        </colgroup>
+                                        <thead>
+                                        <tr>
+                                            <th>등록일자</th>
+                                            <th>처방명</th>
+                                            <th>사전처방량(월)</th>
+                                            <th>처방기간</th>
+                                            <th>발송요청량</th>
+                                            <th>처방만료일자</th>
+                                            <th></th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                        {% for i in [1,2,3] %}
+                                            <tr>
+                                                <td>YYYY.MM.DD</td>
+                                                <td>벽문승방</td>
+                                                <td>5,000 ea</td>
+                                                <td>12개월</td>
+                                                <td>YYYY.MM.DD</td>
+                                                <td>YYYY.MM.DD</td>
+                                                <td>
+                                                    <button class="rm" onclick="removeHistory();">삭제</button>
+                                                </td>
+                                            </tr>
+                                        {% endfor %}
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tab">
+                        <div class="tab__nav">
+                            <a href="" class="tab__navlink active" data-tablink="">사전처방 등록</a>
+                            <button class="tab__navlink" onclick="requestDelivery();">발송 요청</button>
+                        </div>
+                        <div class="tab__content">
+                            <div class="tab__panel active">
+                                <div class="summary-table">
+                                    <table>
+                                        <colgroup>
+                                            <col width="125">
+                                            <col width="225">
+                                            <col width="125">
+                                            <col width="225">
+                                        </colgroup>
+                                        <tbody>
+                                        <tr>
+                                            <th>처방일자</th>
+                                            <td>YYYY.MM.DD</td>
+                                            <th>조제의뢰처</th>
+                                            <td>내용</td>
+                                        </tr>
+                                        <tr>
+                                            <th>처방기관</th>
+                                            <td>디제이메디</td>
+                                            <th>처방의</th>
+                                            <td>내용</td>
+                                        </tr>
+                                        <tr>
+                                            <th>처방명</th>
+                                            <td>내용</td>
+                                            <th>사전처방량</th>
+                                            <td>
+                                                <div class="select">
+                                                    <select name="" id="">
+                                                        <option value="">1,000 ea</option>
+                                                    </select>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th>처방기간</th>
+                                            <td>
+                                                <label for="" class="select">
+                                                    <select name="" id="">
+                                                        <option value="">처방기간</option>
+                                                    </select>
+                                                </label>
+                                            </td>
+                                            <th>제조기간</th>
+                                            <td>3일/조제완료(YYYY.MM.DD)</td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="description-info mt-8">
+                <p>
+                    관련 법령에 의해 사전처방을 등록해 주시면 그에 따라 조제하여 보관 및 발송해드립니다.<br/>
+                    월간 사전처방량과 처방기간(지속개월)을 결정하시면 그에 따라 조제가 진행됩니다.<br/>
+                    ※ 사전처방 등록 시 비용은 발생하지 않으며, 실제 발송 요청 시 결제하시면 됩니다.
+                </p>
+                <a href="">사전처방 등록</a>
+            </div>
+        </div>
+
+        <!-- 제품 상세 정보 -->
+        <div class="tab mt-32">
+            <div class="tab__nav">
+                <a href="" class="tab__navlink active" data-tablink="">상품 상세</a>
+                <a href="" class="tab__navlink" data-tablink="">배송정보</a>
+                <a href="" class="tab__navlink" data-tablink="">교환/환불 신청안내</a>
+                <a href="" class="tab__navlink" data-tablink="">교환/환불 안내</a>
+                <a href="" class="tab__navlink" data-tablink="">교환/환불 기준</a>
+            </div>
+            <div class="tab__content mt-10">
+                <div class="tab__panel active">
+                    <div class="text-center">
+                        <img src="./assets/images/dm-detail.png" alt="" class="mx-auto">
+                    </div>
+                </div>
+                <div class="tab__panel">
+                    <p class="order-description">
+                        - 접수 시점은 매일 밤 12시입니다.<br/>
+                        - 배송 기간은 아래와 같습니다.<br/>
+                        1. 일반 탕제 : 접수 후 2일<br/>
+                        2. 농축 탕제 : 접수 후 3일<br/>
+                        3. 환제·산제 : 접수 후 5일<br/>
+                        - 경옥고·공진단 : 접수 후 2~3일<br/>
+                        - 지역 혹은 택배사에 따라 1~2일 지연 가능<br/>
+                        - 주말 및 공휴일에 접수 된 경우, 다음 날 발송<br/>
+                        - 해외 배송 : 우체국 EMS 이용. 구체적 비용은 지역과 무게에 따라 상이<br/>
+                        - 묶음 배송 : 탕전 처방의 경우 한박스당 30팩 이하에 한해 다른 처방과 묶음 배송 가능, 환제·산제의 경우 처방 전달 사항란에 기재
+
+                    </p>
+                </div>
+                <div class="tab__panel">
+                    <p class="order-description">
+                        1. 사이트에서 신청하기<br/>
+                        - 고객센터로 바로가기<br/>
+                        2. 전화로 신청하기<br/>
+                        - 대표전화 1644-0072 (09:00 ~ 17:30)
+                    </p>
+                </div>
+                <div class="tab__panel">
+                    <p class="order-description">
+                        1. 상품을 인도받았는데 교환/환불을 원하시나요? 상품 수령 후 15일 이내에 가능합니다.<br/>
+                        2. 제품이 훼손되거나 고객이 사용한 경우는 교환/환불이 안됩니다.<br/>
+                        3. 제품하자의 교환/반품은 제품 수령일로부터 15일 이내에만 가능합니다.<br/>
+                        - 제품하자의 기준은 객관적이어야 합니다.<br/>
+                        - 15일이 지난 상품에 대해서는 교환/반품 불가능합니다.<br/>
+                        4. 상품의 교환 및 환불은 관세법령에 따라 처리됩니다.
+
+                    </p>
+                </div>
+                <div class="tab__panel">
+                    <p class="order-description">
+                        상품 수령 후 7일 이내에 신청하실 수 있습니다.<br/>
+                        단, 제품이 내용과 다르거나 불량 등 계약과 다르게 이행된 경우는 제품 수령일부터 3개월 이내,<br/>
+                        그 사실을 안 날 또는 알 수 있었던 날부터 30일 이내에 교환/반품이 가능합니다.<br/>
+                        추가적으로 다 음의 경우 해당하는 반품/교환은 신청이 불가능할 수 있습니다.<br/>
+                        - 소비자의 책임 있는 사유로 상품 등이 멸실 또는 훼손된 경우<br/>
+                        - 소비자의 사용 또는 소비에 의해 상품 등의 가치가 현저히 감소한 경우<br/>
+                        - 시간의 경과에 의해 재판매가 곤란할 정도로 상품 등의 가치가 현저히 감소한 경우<br/>
+                        - 복제가 가능한 상품 등의 포장을 훼손한 경우<br/>
+                        - 소비자의 주문에 따라 개별적으로 생산되는 상품이 제작에 들어간 경우<br/>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 연관상품 -->
+        <div class="section mt-32">
+            <div class="productList">
+                <h2 class="section__title text-center">연관상품</h2>
+                <ul class="">
+                    {% for i in [1,2,3,4] %}
+                        <li class="productList__item">
+                            <div class="productList__content">
+                                <div class="thumbnail">
+                                    <div class="labels">
+                                <span class="discount">
+                                    <strong>30%</strong>
+                                    추가할인
+                                </span>
+                                    </div>
+                                    <img src="./assets/images/prd1.png" alt="">
+                                </div>
+                                <div class="info">
+                                    <div class="flex">
+                                        <span>사전처방 필요</span> 제조기간 1일
+                                    </div>
+                                    <p class="description">상품 설명이 들어가는 곳입니다.</p>
+                                </div>
+                                <div class="actions">
+                                    <a href="" class="button"><span>사전처방</span></a>
+                                    <a href="javascript:getDeliveryItem(1)" class="button"><span class="delivery">발송요청</span></a>
+                                </div>
+                            </div>
+                        </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- modal -->
+<div class="modal" id="modalDeliveryList">
+    <div class="modal__content">
+        <header class="modal__header">
+            <h2 class="modal__title">발송가능 상품</h2>
+            <button class="modal__close">닫기</button>
+        </header>
+        <div class="modal__body">
+            <div class="deliveryList">
+                <ul id="deliveryList">
+                    {% for i in [1,2] %}
+                        <li class="deliveryList__item">
+                            <div class="thumb">
+                                <img src="http://via.placeholder.com/50x50" alt="">
+                            </div>
+                            <p class="name">[무금박 공진단] 침향 60환 + 목향60환 사탕포장+ 목향60환 사탕포장</p>
+                            <strong class="price">272,000</strong>
+                            <a href="">발송요청</a>
+                        </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- modal -->
+<div class="modal" id="requestDelivery">
+    <div class="modal__content" style="width:960px;">
+        <header class="modal__header">
+            <h2 class="modal__title">발송요청</h2>
+            <button class="modal__close">닫기</button>
+        </header>
+        <div class="modal__body">
+            <div class="productList">
+                <ul class="">
+                    {% for i in [1,2,3,4,5,6,7,8] %}
+                        <li class="productList__item">
+                            <div class="productList__content">
+                                <div class="thumbnail">
+                                    <img src="./assets/images/prd1.png" alt="">
+                                </div>
+                                <div class="info">
+                                    <div class="flex">
+                                        <span>조제중</span> 제조기간 1일
+                                    </div>
+                                    <p class="description">상품 설명이 들어가는 곳입니다.</p>
+                                </div>
+                                <div class="actions">
+                                    {% if i % 2 === 0 %}
+                                    <a href="" class="">사전처방</a>
+                                    {% else %}
+                                    <a href="" class=" delivery">발송요청</a>
+                                    {% endif %}
+                                </div>
+                            </div>
+                        </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block script %}
+
+<script>
+  function requestDelivery(id) {
+    $('#loader').addClass('js-active');
+    $('body').css('overflow', 'hidden');
+
+    setTimeout(function(){
+      $('#loader').removeClass('js-active');
+      $('#requestDelivery').addClass('js-active')
+    }, 2000)
+  }
+  function removeHistory(id) {
+    if(confirm('내역을 삭제하시겠습니까?')) {
+      // ajax...
+
+      alert('내역이 삭제 되었습니다.');
+    }
+ }
+  function getDeliveryItem(id) {
+    $('#loader').addClass('js-active');
+    $('body').css('overflow', 'hidden');
+    setTimeout(function(){
+      $.ajax({
+        type: 'GET',
+        url: 'https://jsonplaceholder.typicode.com/todos',
+        data: { id: id },
+        success: function (res) {
+          var item = '';
+          $('#deliveryList').html('');
+          res.map(function(data, idx) {
+            // TODO: 데이터에 맞게 입력
+            item += '<li class="deliveryList__item">\n' +
+              '        <div class="thumb">\n' +
+              '          <img src="http://via.placeholder.com/50x50" alt="">\n' +
+              '        </div>\n' +
+              '        <p class="name">발송요청 가능한 상품들...</p>\n' +
+              '        <strong class="price">272,000</strong>\n' +
+              '        <a href="?#'+data.id+'">발송요청</a>\n' +
+              '      </li>';
+            $('#deliveryList').append(item);
+          });
+        },
+        error: function(error) {
+          console.error(error);
+          alert('발송가능 상품을 가져오지 못했습니다.');
+        },
+        complete: function(res) {
+          $('#loader').removeClass('js-active');
+          $('#modalDeliveryList').addClass('js-active')
+        }
+      });
+    }, 2000)
+  }
+</script>
+{% endblock %}

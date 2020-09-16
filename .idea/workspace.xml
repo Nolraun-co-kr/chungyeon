@@ -11,8 +11,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cbdca2e9-b626-4f98-bc96-01cbd6d92563" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/dev/assets/scss/components/_badge.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/scss/components/_select.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/scss/components/_tab.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/scss/pages/_product.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/scss/pages/_sublist.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/detail.njk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/detail2.njk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/list.njk" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/assets/images/breadcrumb-arrow.png" beforeDir="false" afterPath="$PROJECT_DIR$/dev/assets/images/breadcrumb-arrow.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/assets/js/function.js" beforeDir="false" afterPath="$PROJECT_DIR$/dev/assets/js/function.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/assets/scss/base/_base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dev/assets/scss/base/_base.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/assets/scss/components/_modal.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dev/assets/scss/components/_modal.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/assets/scss/components/_productList.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dev/assets/scss/components/_productList.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/assets/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dev/assets/scss/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/images/breadcrumb-arrow.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/images/breadcrumb-arrow.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/js/ui.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/js/ui.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,17 +50,18 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/dev/assets/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="tasks.servers" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/dev" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/dev/assets/images" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -59,7 +77,8 @@
       <workItem from="1600084655288" duration="18801000" />
       <workItem from="1600108865440" duration="205000" />
       <workItem from="1600151327210" duration="185000" />
-      <workItem from="1600153421579" duration="6863000" />
+      <workItem from="1600153421579" duration="7778000" />
+      <workItem from="1600271030399" duration="6929000" />
     </task>
     <servers />
   </component>
@@ -91,9 +110,9 @@
       <screen x="1920" y="143" width="1920" height="1057" />
     </state>
     <state x="2588" y="363" key="Vcs.Push.Dialog.v2/1920.143.1920.1057/0.23.1920.1177@1920.143.1920.1057" timestamp="1600084219262" />
-    <state x="2586" y="416" width="588" height="510" key="find.popup" timestamp="1600156384400">
+    <state x="2586" y="416" width="588" height="510" key="find.popup" timestamp="1600275910032">
       <screen x="1920" y="143" width="1920" height="1057" />
     </state>
-    <state x="2586" y="416" width="588" height="510" key="find.popup/1920.143.1920.1057/0.23.1920.1177@1920.143.1920.1057" timestamp="1600156384400" />
+    <state x="2586" y="416" width="588" height="510" key="find.popup/1920.143.1920.1057/0.23.1920.1177@1920.143.1920.1057" timestamp="1600275910032" />
   </component>
 </project>
