@@ -9,6 +9,20 @@
     height: 80px;
   }
 
+  .actions {
+    @apply flex justify-end items-center;
+    margin-top: 34px;
+    .btn {
+      line-height: 48px;
+      height: 50px;
+      @apply border border-color6 text-sm text-color6 text-center ml-4;
+      width: 200px;
+      &.bg-color6 {
+        @apply text-white bg-color6;
+      }
+    }
+
+  }
 
 
 
@@ -92,20 +106,7 @@
     width: 700px;
     margin-top: -6px;
 
-    .actions {
-      @apply flex justify-end items-center;
-      margin-top: 34px;
-      .btn {
-        line-height: 48px;
-        height: 50px;
-        @apply border border-color6 text-sm text-color6 text-center ml-4;
-        width: 200px;
-        &.bg-color6 {
-          @apply text-white bg-color6;
-        }
-      }
 
-    }
   }
 
   .tab {
@@ -163,5 +164,74 @@
     width: 100%;
     height: 100%;
     padding: 0;
+  }
+}
+
+
+
+.farmacology {
+  padding-bottom: 100px;
+  .w-700 {
+    width: 700px;
+    flex: none;
+    margin-right: 50px;
+  }
+
+  .actions {
+    .btn {
+      flex: 1;
+
+      &:first-child {
+        margin: 0;
+      }
+    }
+  }
+
+  .thumb {
+    width: 158px;
+    height: 158px;
+    overflow: hidden;
+    background:#f9f9f9;
+    border: 1px solid #ddd;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  .farmacology__title {
+    margin-bottom: 30px;
+    span {
+      color:#fff;
+      display: inline-block;
+      background:#507a19;
+      font-size: 14px;
+      padding:0 10px;
+      line-height:24px;
+    }
+    h2 {
+      margin-top: 10px;
+      font-size: 26px;
+    }
+  }
+
+  .searchfm {
+    @apply flex;
+    .select {
+      width: 150px;
+      flex: none;
+    }
+    .input {
+      flex: 1;
+
+      button {
+        width: 33px;
+        flex: none;
+        background:#fff url('../images/icon-searchfm.png') no-repeat center;
+        text-indent: -9999px;
+        overflow: hidden;
+      }
+    }
   }
 }

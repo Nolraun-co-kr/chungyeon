@@ -19,7 +19,7 @@
 | 로그인 후 메인 | 24 | - |
 | 상품 리스트 | 26 | [:link:](https://suspicious-jackson-d2abd5.netlify.app/list.html) |
 | 실속처방 | 27 - 33 | [:link:](https://suspicious-jackson-d2abd5.netlify.app/detail2.html) |
-| 탕전처방 | 34 - 44 | - |
+| 탕전처방 | 34 - 44 | [:link:](https://suspicious-jackson-d2abd5.netlify.app/detail3.html) |
 | 배송지 입력 및 탕전실 접수 | 45 - 47 | - |
 | 사전처방 | 48 - 56 | [:link:](https://suspicious-jackson-d2abd5.netlify.app/detail.html) |
 | 약속처방 | 57 - 63 | - |
