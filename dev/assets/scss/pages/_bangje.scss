@@ -1,0 +1,107 @@
+.bangje {
+  padding-top: 40px;
+}
+.bangje__search {
+  @apply border;
+  border-color:#dddddd;
+  background:#f9f4f1;
+  padding: 20px;
+
+  .slider {
+    @apply flex items-center;
+
+    .range {
+      flex: 1;
+      height: 5px;
+      background:#e7dacc;
+      border: none;
+      margin-right: 20px;
+    }
+    .noUi-horizontal .noUi-handle {
+      width: 15px;
+      height: 15px;
+      background:#886947;
+      border-radius: 50%;
+      box-shadow: none;
+      border: none;
+      right: -8px;
+      top: -4px;
+      &:before,
+      &:after {
+        display: none;
+      }
+    }
+    .noUi-connect {
+      background:#886947;
+    }
+    .range__info {
+      flex: none;
+      @apply flex items-center;
+      .input {
+        width: 55px;
+      }
+
+    }
+  }
+
+  .row {
+    @apply items-center;
+    height: 35px;
+    & ~ .row {
+      margin-top: 10px;
+    }
+    .col--name{
+      width: 100px;
+      flex: none;
+
+      h3 {
+        font-size: 14px;
+        color:#888888;
+      }
+    }
+    .col--form{
+      width: 480px;
+      flex: none;
+      .input {
+        height: 35px;
+        input {
+          font-size: 14px;
+        }
+      }
+      span {
+        font-size: 12px;
+        margin-left: 5px;
+      }
+    }
+    .col--info{
+      flex: 1;
+      p {
+        font-size: 14px;
+        color:#94734f;
+        padding-left: 10px;
+      }
+    }
+  }
+}
+
+.searcharea {
+  background:#f9f4f1;
+  border: 1px solid #dddddd;
+  padding: 35px 0;
+
+  .form {
+    width: 350px;
+    margin:0 auto;
+
+    .input {
+      height: 45px;
+    }
+    .submit {
+      text-indent: -9999px;
+      overflow: hidden;
+      width: 43px;
+      height: 43px;
+      background:#fff url('../images/icon-search-gray.png') no-repeat center;
+    }
+  }
+}

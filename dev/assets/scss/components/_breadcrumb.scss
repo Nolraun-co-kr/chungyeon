@@ -1,0 +1,28 @@
+.breadcrumb {
+  @apply flex items-center;
+  height: 80px;
+  span {
+    font-size: 14px;
+    @apply flex items-center;
+    padding-right: 20px;
+    background: url('../images/breadcrumb-arrow.png') no-repeat right
+    center;
+    background-size: auto 12px;
+    margin-right: 10px;
+    letter-spacing: -.05em;
+    opacity: 0.4;
+
+    &.active {
+      opacity: 1;
+    }
+    &:last-child {
+      padding-right: 0;
+      margin-right: 0;
+      background: none;
+    }
+    strong {
+      font-weight: 600;
+      margin-right: 5px;
+    }
+  }
+}

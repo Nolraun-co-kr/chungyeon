@@ -1,0 +1,30 @@
+.info-table {
+  .board-table {
+    border: none;
+    th, td {
+      border: none;
+    }
+  }
+  tbody {
+    th, td {
+      border: 1px solid #dddddd;
+      padding: 10px;
+      line-height: 1.5em;
+      font-size: 14px;
+      color:#888888;
+      text-align: left;
+    }
+    th {
+      background:#f9f9f9;
+    }
+  }
+}
+
+
+.info-description {
+  background:#f9f4f1;
+  padding: 20px;
+  line-height:1.5em;
+  color:#94734f;
+  font-size: 14px;
+}

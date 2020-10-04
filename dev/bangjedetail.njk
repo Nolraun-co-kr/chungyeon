@@ -1,0 +1,148 @@
+{% extends 'layout/base.njk' %}
+{% block content %}
+    <div class="sub">
+        <div class="wrap">
+            <div class="breadcrumb">
+                <span class="">Home</span>
+                <span class="">약속처방</span>
+                <span class="active">사전처방</span>
+            </div>
+            <div class="links">
+                <a href="" class="active">방제사전</a>
+                <a href="">본초사전</a>
+            </div>
+            <div class="bangje pb-20">
+                <div class="subtit">
+                    <span>방제명</span>
+                    <h2>가감감로음 加減甘露飮</h2>
+
+                    <div class="action-box">
+                        <a href="" class="button">나의처방으로 추가</a>
+                    </div>
+                </div>
+
+                <div class="info-table">
+                    <table>
+                        <colgroup>
+                            <col width="210">
+                            <col>
+                            <col width="210">
+                            <col>
+                        </colgroup>
+                        <tbody>
+                        <tr>
+                            <th>출전</th>
+                            <td>내용</td>
+                            <th>제형</th>
+                            <td>내용</td>
+                        </tr>
+                        <tr>
+                            <th>
+                                약재구성
+                                <span class="block text-xs font-medium">(단위: 46첩)</span>
+                            </th>
+                            <td colspan="3">
+                                <div class="row">
+                                    <div class="col mr-4">
+                                        <div class="board-table">
+                                            <table>
+                                                <colgroup>
+                                                    <col width="90">
+                                                    <col>
+                                                    <col width="180">
+                                                </colgroup>
+                                                <thead>
+                                                <tr>
+                                                    <th class="text-center">번호</th>
+                                                    <th class="text-left">약제명</th>
+                                                    <th class="text-left">약제량</th>
+                                                </tr>
+                                                </thead>
+                                                <tbody>
+                                                {% for i in [1,2,3,4] %}
+                                                <tr>
+                                                    <td class="text-center">01</td>
+                                                    <td>숙지황 熟地黃</td>
+                                                    <td>1냥 /  40.0g</td>
+                                                </tr>
+                                                {% endfor %}
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="board-table">
+                                            <table>
+                                                <colgroup>
+                                                    <col width="90">
+                                                    <col>
+                                                    <col width="180">
+                                                </colgroup>
+                                                <thead>
+                                                <tr>
+                                                    <th class="text-center">번호</th>
+                                                    <th class="text-left">약제명</th>
+                                                    <th class="text-left">약제량</th>
+                                                </tr>
+                                                </thead>
+                                                <tbody>
+                                                {% for i in [1,2,3,4] %}
+                                                    <tr>
+                                                        <td class="text-center">01</td>
+                                                        <td>숙지황 熟地黃</td>
+                                                        <td>1냥 /  40.0g</td>
+                                                    </tr>
+                                                {% endfor %}
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>명주치종</th>
+                            <td colspan="3">내용...</td>
+                        </tr>
+                        <tr>
+                            <th>처방설</th>
+                            <td colspan="3">
+                                동의보감 외형편 口舌 口臭 加減甘露飮<br/>
+                                ○治胃熱口臭 口瘡 牙宣. 熟地黃 生地黃 天門冬 黃芩 枇杷葉 茵陳 枳殼 石斛 甘草 各一兩 犀角三錢. 右爲末 每二錢 水煎服.<br/>
+                                此方有犀角一味 甚有道理 有奇效. [本事]
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>처방의 사용법</th>
+                            <td colspan="3">
+                                동의보감 외형편 口舌 口臭 加減甘露飮<br/>
+                                ○治胃熱口臭 口瘡 牙宣. 熟地黃 生地黃 天門冬 黃芩 枇杷葉 茵陳 枳殼 石斛 甘草 各一兩 犀角三錢. 右爲末 每二錢 水煎服.<br/>
+                                此方有犀角一味 甚有道理 有奇效. [本事]
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>제조법</th>
+                            <td colspan="3">
+                                약재를 가루내어 2돈씩 물에 달인다.
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>태그</th>
+                            <td colspan="3">
+                                #구창(口瘡)#구취#구설문(口舌門)#위열(胃熱)#위부(胃腑)
+
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="info-description mt-8">
+                    해당 사이트에서 제공하는 처방 관련 내용은 원전에 기반하여 편집자가 임의로 편집한 내용입니다.<br/>
+                    지속적인 업데이트를 통해 오탈자 등을 수정하고 있지만, 사용자 본인의 확인이 가장 중요합니다.<br/>
+                    이와 같이 사용자가 판단하여 활용하는 결과에 대하여 당사가 법적인 책임을 지지 않음 을 알려드립니다.<br/>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

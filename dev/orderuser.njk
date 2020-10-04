@@ -1,0 +1,178 @@
+{% extends 'layout/base.njk' %}
+{% block content %}
+    <div class="sub sub__detail">
+        <div class="wrap">
+            <div class="breadcrumb">
+                <span class="">Home</span>
+                <span class="">약속처방</span>
+                <span class="active">사전처방</span>
+            </div>
+            <div class="subtit">
+                <span>마이페이지</span>
+                <h2>주문내역</h2>
+            </div>
+
+            <div class="mypage pb-20">
+                <div class="row items-start">
+                    <div class="col mypage__lnb">
+                        <h2>My The Han</h2>
+                        <ul class="mypage__gnb">
+                            <li><a href="" class="active">주문내역</a></li>
+                            <li><a href="" class="">장바구니</a></li>
+                            <li><a href="" class="">한의사 관리</a></li>
+                            <li><a href="" class="">처방옵션</a></li>
+                            <li><a href="" class="">보관함</a></li>
+                            <li><a href="" class="">마일리지/적립금</a></li>
+                            <li><a href="" class="">통계관리</a></li>
+                            <li><a href="" class="">내 정보</a></li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <div class="board-table-info">
+                            <h2 class="info-title">환자정보</h2>
+                            <a href="" class="action-button">
+                                <img src="./assets/images/icon-write.png" class="mr-1" alt=""> 처방하기
+                            </a>
+                        </div>
+
+                        <div class="info-table">
+                            <table>
+                                <colgroup>
+                                    <col width="160">
+                                    <col>
+                                    <col width="160">
+                                    <col>
+                                </colgroup>
+                                <tbody>
+                                <tr>
+                                    <th>차트번호</th>
+                                    <td>내용</td>
+                                    <th>환자명</th>
+                                    <td>내용</td>
+                                </tr>
+                                <tr>
+                                    <th>성별</th>
+                                    <td>남성</td>
+                                    <th>생년월일</th>
+                                    <td>만 40 / 19780912</td>
+                                </tr>
+                                <tr>
+                                    <th>연락처</th>
+                                    <td>010-2444-2222</td>
+                                    <th>휴대전화</th>
+                                    <td>010-2222-3333</td>
+                                </tr>
+                                <tr>
+                                    <th>주소</th>
+                                    <td colspan="3">
+                                        경기도 고양시 ...
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>최근처방정보</th>
+                                    <td colspan="3">
+                                        (2002.06-19) [정옥고스틱] 벌크 300포
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>기타</th>
+                                    <td colspan="3">기타</td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <section class="section mt-12">
+                            <div class="order-history">
+                                <div class="order-history__header">
+                                    <div class="links">
+                                        <a href="" class="active">처방내역</a>
+                                        <a href="">약속처방</a>
+                                    </div>
+                                </div>
+                                <div class="order-history__body">
+                                    <p style="line-height: 200px;" class="text-sm text-gray-500 text-center">내역이 없습니다.</p>
+
+                                    <div class="board-table">
+                                        <table>
+                                            <colgroup>
+                                                <col width="135">
+                                                <col width="100">
+                                                <col width="">
+                                                <col width="90">
+                                                <col width="100">
+                                                <col width="100">
+                                            </colgroup>
+                                            <thead>
+                                            <tr>
+                                                <th class="text-center">처방일시</th>
+                                                <th class="text-left">한의사</th>
+                                                <th class="text-center">상품명</th>
+                                                <th class="text-center">수량</th>
+                                                <th class="text-center">금액</th>
+                                                <th class=""></th>
+                                            </tr>
+                                            </thead>
+                                            <tbody>
+                                            {% for i in [1,2,3,4,5] %}
+                                                <tr>
+                                                    <td class="text-center">2020.01.01 20:20</td>
+                                                    <td class="text-left">김가나</td>
+                                                    <td class="text-center">官桂 桂 </td>
+                                                    <td class="text-center">1개</td>
+                                                    <td class="text-center">
+                                                        123,300원
+                                                    </td>
+                                                    <td class="text-center">
+                                                        <a href="" class="button">상세보기</a>
+                                                    </td>
+                                                </tr>
+                                            {% endfor %}
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <div class="pagination mt-8">
+                                        <div class="wrap">
+                                            <a href="" class="arrow arrow-prev">이전</a>
+                                            <a href="" class="active">1</a>
+                                            <a href="" class="">2</a>
+                                            <a href="" class="">3</a>
+                                            <a href="" class="">4</a>
+                                            <a href="" class="">5</a>
+                                            <a href="" class="arrow arrow-next">다음</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </section>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal js-active" id="" style="">
+        <div class="modal__content">
+            <header class="modal__header">
+                <h2 class="modal__title">처방하기</h2>
+                <button class="modal__close">닫기</button>
+            </header>
+            <div class="modal__body">
+                <div class="pres-form">
+                    <div class="select">
+                        <select name="" id="">
+                            <option value="">같은 약제 처방</option>
+                        </select>
+                    </div>
+                    <p class="text-center my-6">처방 하시겠습니까?</p>
+                    <div class="action-box justify-center">
+                        <a href="" class="button small fill">확인</a>
+                        <a href="" class="button small">취소</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

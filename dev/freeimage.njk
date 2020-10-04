@@ -1,0 +1,42 @@
+{% extends 'layout/base.njk' %}
+{% block content %}
+    <div class="sub">
+        <div class="section pb-20">
+            <div class="wrap">
+                <div class="breadcrumb">
+                    <span class="">Home</span>
+                    <span class="">약속처방</span>
+                    <span class="active">사전처방</span>
+                </div>
+
+                <h2 class="info-title">무료이미지</h2>
+                <div class="gallery">
+                    <ul>
+                        {% for i in [1,2,3,4,5,6,1,2,3] %}
+                            <li class="gallery__item">
+                                <div class="thumbnail">
+                                    <img src="./assets/images/prd2.png" alt="">
+                                </div>
+                                <div class="thumbnail-body">
+                                    <h3>제목</h3>
+                                    <a href=""><img src="./assets/images/icon-download-gray.png" alt="" class="mr-1">DOWNLOAD</a>
+                                </div>
+                            </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+                <div class="pagination mt-8">
+                    <div class="wrap">
+                        <a href="" class="arrow arrow-prev">이전</a>
+                        <a href="" class="active">1</a>
+                        <a href="" class="">2</a>
+                        <a href="" class="">3</a>
+                        <a href="" class="">4</a>
+                        <a href="" class="">5</a>
+                        <a href="" class="arrow arrow-next">다음</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

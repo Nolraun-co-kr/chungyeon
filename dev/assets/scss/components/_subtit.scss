@@ -1,0 +1,24 @@
+.subtit {
+  @apply relative;
+  margin-bottom: 30px;
+  span {
+    color:#fff;
+    display: inline-block;
+    background:#507a19;
+    font-size: 14px;
+    padding:0 10px;
+    line-height:24px;
+  }
+  h2 {
+    margin-top: 10px;
+    font-size: 26px;
+    line-height: 1em;
+  }
+
+  .action-box {
+    @apply absolute right-0 top-0;
+    .button {
+      width: 200px;
+    }
+  }
+}

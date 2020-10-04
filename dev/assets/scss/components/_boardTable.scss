@@ -1,0 +1,55 @@
+.board-table {
+  border-top: 1px solid #dddddd;
+  color:#888888;
+  font-size: 14px;
+  thead {
+    th {
+      background:#f9f4f1 !important;
+      height: 55px;
+      font-weight: 400;
+      padding:0 10px;
+    }
+  }
+  tbody {
+    td {
+      height: 45px;
+      padding:0 10px;
+
+      .button {
+        line-height: 25px;
+        display: block;
+        background:#94734f;
+        color:#fff;
+      }
+    }
+    tr {
+      background:#f7f7f7;
+    }
+    tr:nth-child(odd) {
+      background:#fcfcfc;
+    }
+  }
+}
+
+.board-table-info {
+  @apply items-end flex justify-between;
+  margin-bottom: 8px;
+
+  span {
+    font-size: 14px;
+    color:#888;
+  }
+  strong {
+    color:#507a19;
+  }
+
+  .action-button {
+    color:#507a19;
+    font-size: 14px;
+    border: 1px solid #507a19;
+    border-radius: 2em;
+    line-height: 30px;
+    padding:0 1em;
+    @apply flex items-center;
+  }
+}

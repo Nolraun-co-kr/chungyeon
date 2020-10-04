@@ -1,0 +1,25 @@
+.action-box {
+  @apply flex items-center;
+
+  .button {
+    flex: 1;
+    max-width: 235px;
+    line-height: 48px;
+    height: 50px;
+    border: 1px solid #507a19;
+    color:#507a19;
+    font-size: 14px;
+    margin: 0 .25em;
+    text-align: center;
+
+    &.fill {
+      background:#507a19;
+      color:#fff;
+    }
+
+    &.small {
+      height: 40px;
+      line-height: 38px;
+    }
+  }
+}

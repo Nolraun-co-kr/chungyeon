@@ -1,0 +1,30 @@
+.pagination {
+  .wrap {
+    @apply flex items-center justify-center;
+    width: 100%;
+  }
+  a {
+    margin:0 2px;
+    width: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 12px;
+
+    &.active {
+      border: 1px solid #844909;
+      color:#844909;
+    }
+  }
+
+  .arrow {
+    text-indent: -9999px;
+    overflow: hidden;
+    border: 1px solid #ddd;
+    background: url('../images/icon-pagination-arrow.png') no-repeat center;
+    background-size: auto 10px;
+
+    &.arrow-prev {
+      transform: rotate(180deg);
+    }
+  }
+}

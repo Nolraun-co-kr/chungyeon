@@ -1,0 +1,154 @@
+{% extends 'layout/base.njk' %}
+{% block content %}
+    <div class="sub sub__detail">
+        <div class="wrap">
+            <div class="breadcrumb">
+                <span class="">Home</span>
+                <span class="">약속처방</span>
+                <span class="active">사전처방</span>
+            </div>
+            <div class="subtit">
+                <span>마이페이지</span>
+                <h2>주문내역</h2>
+            </div>
+
+            <div class="mypage pb-20">
+                <div class="row items-start">
+                    <div class="col mypage__lnb">
+                        <h2>My The Han</h2>
+                        <ul class="mypage__gnb">
+                            <li><a href="" class="active">주문내역</a></li>
+                            <li><a href="" class="">장바구니</a></li>
+                            <li><a href="" class="">한의사 관리</a></li>
+                            <li><a href="" class="">처방옵션</a></li>
+                            <li><a href="" class="">보관함</a></li>
+                            <li><a href="" class="">마일리지/적립금</a></li>
+                            <li><a href="" class="">통계관리</a></li>
+                            <li><a href="" class="">내 정보</a></li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <h2 class="info-title">주문/결제 조회</h2>
+                        <div class="order-search">
+                            <table>
+                                <colgroup>
+                                    <col width="230">
+                                    <col>
+                                </colgroup>
+                                <tbody>
+                                <tr>
+                                    <th>조회기간</th>
+                                    <td>
+                                        <div class="row">
+                                            <div class="flex flex-none">
+                                                <label for="ck11" class="checkItem">
+                                                    <input type="radio" name="date" id="ck11" hidden>
+                                                    <span>일주일</span>
+                                                </label>
+                                                <label for="ck12" class="checkItem">
+                                                    <input type="radio" name="date" id="ck12" hidden>
+                                                    <span>15일</span>
+                                                </label>
+                                                <label for="ck13" class="checkItem">
+                                                    <input type="radio" name="date" id="ck13" hidden>
+                                                    <span>1개월</span>
+                                                </label>
+                                                <label for="ck14" class="checkItem">
+                                                    <input type="radio" name="date" id="ck14" hidden>
+                                                    <span>6개월</span>
+                                                </label>
+                                            </div>
+                                            <div class="flex items-center col ml-4">
+                                                <div class="input"><input type="text" class="datepicker"></div>
+                                                <span class="px-2">~</span>
+                                                <div class="input"><input type="text" class="datepicker"></div>
+                                            </div>
+                                        </div>
+                                        <div class="row my-2">
+                                            <div class="flex-none w-48">
+                                                <div class="select">
+                                                    <select name="" id="">
+                                                        <option value="">처방명</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="col mx-2">
+                                                <div class="input"><input type="text" placeholder="검색어 입력"></div>
+                                            </div>
+                                            <div class=" flex-none w-32">
+                                                <button class="submit text-sm">조회하기</button>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <label for="ck1" class="checkbox">
+                                                <input type="checkbox" id="ck1" hidden>
+                                                <span></span>
+                                                <p>내가 처방한 환자만 보기</p>
+                                            </label>
+                                        </div>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <section class="section mt-12">
+                            <div class="board-table-info">
+                                <span>전체 <strong>(2)</strong></span>
+                                <a href="" class="action-button">
+                                    <img src="./assets/images/icon-download.png" class="mr-1" alt="">엑셀 다운로드
+                                </a>
+                            </div>
+                            <div class="board-table">
+                                <table>
+                                    <thead>
+                                    <tr>
+                                        <th class="text-center">한의사</th>
+                                        <th class="text-center">처방번호</th>
+                                        <th class="text-center">처방전송일자</th>
+                                        <th class="text-center">환자명</th>
+                                        <th class="text-center">처방명</th>
+                                        <th class="text-center">첩수</th>
+                                        <th class="text-center">용량</th>
+                                        <th class="text-center">진행상황</th>
+                                        <th class="text-center">합계금액</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    {% for i in [1,2,3,4,5] %}
+                                        <tr>
+                                            <td class="text-center">홍길동</td>
+                                            <td class="text-center">123123</td>
+                                            <td class="text-center">2020.01.01 20:23</td>
+                                            <td class="text-center">홍길동</td>
+                                            <td class="text-center">감길탕甘桔湯              </td>
+                                            <td class="text-center">2</td>
+                                            <td class="text-center">1 개</td>
+                                            <td class="text-center">조제중</td>
+                                            <td class="text-center">
+                                                123,000 원 <span class="block text-color1">(무통장입금)</span>
+                                            </td>
+                                        </tr>
+                                    {% endfor %}
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="pagination mt-8">
+                                <div class="wrap">
+                                    <a href="" class="arrow arrow-prev">이전</a>
+                                    <a href="" class="active">1</a>
+                                    <a href="" class="">2</a>
+                                    <a href="" class="">3</a>
+                                    <a href="" class="">4</a>
+                                    <a href="" class="">5</a>
+                                    <a href="" class="arrow arrow-next">다음</a>
+                                </div>
+                            </div>
+                        </section>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

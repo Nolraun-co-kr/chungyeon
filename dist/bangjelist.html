@@ -1,0 +1,373 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./assets/plugins/slick/slick.css">
+    <link rel="stylesheet" href="./assets/plugins/jquery-ui-1.12.1/jquery-ui.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    
+    <link rel="stylesheet" href="./assets/plugins/noUiSlider/distribute/nouislider.css">
+
+</head>
+<body>
+<div class="wrapper">
+    <header class="header">
+   <div class="header__top">
+       <div class="wrap flex items-center">
+           <a href="" class="header__logo"><img src="./assets/images/header-logo.png" alt="청연한방병원 원외탕전실"></a>
+           <div class="header__search ml-auto">
+               <form action="" class="block">
+                   <div class="flex header__form">
+                       <input type="text">
+                       <button type="submit" class="submit">검색</button>
+                   </div>
+               </form>
+           </div>
+           <div class="header__etc flex">
+               <a href="">마이페이지</a>
+               <a href="">장바구니</a>
+               <a href="">로그인</a>
+               <a href="">회원가입</a>
+           </div>
+       </div>
+   </div>
+    <div class="header__gnb">
+        <div class="wrap flex">
+            <nav class="flex mr-auto">
+                <a href="">처방하기</a>
+                <a href="">약속처방</a>
+                <a href="">처방사전</a>
+                <a href="">고객센터</a>
+                <a href="">이벤트</a>
+                <a href="">무료 이미지 사용</a>
+            </nav>
+            <nav class="flex">
+                <a href="">실속처방</a>
+                <a href="">탕제처방</a>
+                <a href="">약속처방</a>
+            </nav>
+        </div>
+    </div>
+</header>
+
+    <div class="container">
+        
+    <div class="sub sub__detail">
+        <div class="wrap">
+            <div class="breadcrumb">
+                <span class="">Home</span>
+                <span class="">약속처방</span>
+                <span class="active">사전처방</span>
+            </div>
+            <div class="links">
+                <a href="" class="active">방제사전</a>
+                <a href="">본초사전</a>
+            </div>
+            <div class="bangje pb-20">
+                <section class="section">
+                    <h2 class="info-title">조건 검색</h2>
+                    <form action="" class="block">
+                        <div class="bangje__search">
+                            <div class="row">
+                                <div class="col col--name">
+                                    <h3>포함할 약재</h3>
+                                </div>
+                                <div class="col col--form">
+                                    <div class="input">
+                                        <input type="text">
+                                    </div>
+                                </div>
+                                <div class="col col--info"></div>
+                            </div>
+                            <div class="row">
+                                <div class="col col--name">
+                                    <h3>포함할 태그</h3>
+                                </div>
+                                <div class="col col--form">
+                                    <div class="input">
+                                        <input type="text">
+                                    </div>
+                                </div>
+                                <div class="col col--info">
+                                    <p>예) 담음, 정도통, 부인문, 소아문</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col col--name">
+                                    <h3>제외할 약재</h3>
+                                </div>
+                                <div class="col col--form">
+                                    <div class="input">
+                                        <input type="text">
+                                    </div>
+                                </div>
+                                <div class="col col--info">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col col--name">
+                                    <h3>제외할 태그</h3>
+                                </div>
+                                <div class="col col--form">
+                                    <div class="input">
+                                        <input type="text">
+                                    </div>
+                                </div>
+                                <div class="col col--info">
+                                    <p>예) 담음, 정도통, 부인문, 소아문</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col col--name">
+                                    <h3>약재 개수 선택</h3>
+                                </div>
+                                <div class="col col--form">
+                                    <div class="slider">
+                                        <div class="range" id="steps-slider"></div>
+                                        <div class="range__info">
+                                            <div class="input"><input type="text" id="value-0"></div>
+                                            <span class="mr-2">개 이상 ~</span>
+                                            <div class="input"><input type="text" id="value-1"></div>
+                                            <span>개 이하</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col col--info">
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col">
+                                    <div class="row">
+                                        <div class="col col--name">
+                                            <h3>체형</h3>
+                                        </div>
+                                        <div class="col">
+                                            <div class="flex flex-wrap">
+                                                <label for="ck1" class="checkItem">
+                                                    <input type="checkbox" id="ck1" hidden>
+                                                    <span>전체</span>
+                                                </label>
+                                                <label for="ck2" class="checkItem">
+                                                    <input type="checkbox" id="ck2" hidden>
+                                                    <span>탕제</span>
+                                                </label>
+                                                <label for="ck3" class="checkItem">
+                                                    <input type="checkbox" id="ck3" hidden>
+                                                    <span>환제</span>
+                                                </label>
+                                                <label for="ck4" class="checkItem">
+                                                    <input type="checkbox" id="ck4" hidden>
+                                                    <span>산제</span>
+                                                </label>
+                                                <label for="ck5" class="checkItem">
+                                                    <input type="checkbox" id="ck5" hidden>
+                                                    <span>외용제</span>
+                                                </label>
+                                                <label for="ck6" class="checkItem">
+                                                    <input type="checkbox" id="ck6" hidden>
+                                                    <span>기타</span>
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="row">
+                                        <div class="col col--name">
+                                            <h3>출전</h3>
+                                        </div>
+                                        <div class="col ">
+                                            <div class="flex flex-wrap">
+                                                <label for="ck11" class="checkItem">
+                                                    <input type="checkbox" id="ck11" hidden>
+                                                    <span>전체</span>
+                                                </label>
+                                                <label for="ck12" class="checkItem">
+                                                    <input type="checkbox" id="ck12" hidden>
+                                                    <span>동의보</span>
+                                                </label>
+                                                <label for="ck13" class="checkItem">
+                                                    <input type="checkbox" id="ck13" hidden>
+                                                    <span>방악합편</span>
+                                                </label>
+                                                <label for="ck14" class="checkItem">
+                                                    <input type="checkbox" id="ck14" hidden>
+                                                    <span>상환론</span>
+                                                </label>
+                                                <label for="ck15" class="checkItem">
+                                                    <input type="checkbox" id="ck15" hidden>
+                                                    <span>동의수세보원</span>
+                                                </label>
+                                                <label for="ck16" class="checkItem">
+                                                    <input type="checkbox" id="ck16" hidden>
+                                                    <span>청강의겸</span>
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="action-box justify-center mt-6">
+                            <button type="reset" class="button">초기화</button>
+                            <button type="reset" class="button fill">검색</button>
+                        </div>
+                    </form>
+                </section>
+
+                <section class="section mt-20">
+
+                    <div class="board-table-info">
+                        <span>총 검색 건수 <strong>2</strong>건</span>
+
+                        <span>* 자료출처 : 한의플래닛</span>
+                    </div>
+                    <div class="board-table">
+                        <table>
+                            <colgroup>
+                                <col width="135">
+                                <col width="275">
+                                <col>
+                                <col width="135">
+                                <col width="135">
+                            </colgroup>
+                            <thead>
+                            <tr>
+                                <th class="text-center">번호</th>
+                                <th class="text-left">출전</th>
+                                <th class="text-left">방제명</th>
+                                <th class="text-center">구분</th>
+                                <th class="text-center">약재수</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td class="text-center">01</td>
+                                <td>방약합편 中統, 동의보감 咽喉    </td>
+                                <td><a href="">감길탕甘桔湯</a>              </td>
+                                <td class="text-center">탕제</td>
+                                <td class="text-center">1</td>
+                            </tr>
+                            <tr>
+                                <td class="text-center">01</td>
+                                <td>방약합편 中統, 동의보감 咽喉    </td>
+                                <td><a href="">감길탕甘桔湯</a>              </td>
+                                <td class="text-center">탕제</td>
+                                <td class="text-center">1</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="pagination mt-8">
+                        <div class="wrap">
+                            <a href="" class="arrow arrow-prev">이전</a>
+                            <a href="" class="active">1</a>
+                            <a href="" class="">2</a>
+                            <a href="" class="">3</a>
+                            <a href="" class="">4</a>
+                            <a href="" class="">5</a>
+                            <a href="" class="arrow arrow-next">다음</a>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    </div>
+    <footer class="footer">
+    <div class="row footer__top">
+        <div class="wrap flex">
+            <div class="col flex footer__links">
+                <a href="">이용약관</a>
+                <a href="">개인정보처리방침</a>
+            </div>
+            <div class="col flex ml-auto">
+                <div class="footer__bank flex">
+                    <p>무통장입금 계좌번호 : <strong>스탠다드차타드은행(SC제일은행) 730-20-045475</strong></p>
+                    <p>예금주 : 이상영(청연한방병원원외탕전실)</p>
+                </div>
+                <a href="" class="footer__kakao">
+                    @더한탕전원
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="row footer__bottom">
+        <div class="wrap flex items-start">
+            <div class="col mr-8 footer__logo">
+                <a href="" class="">
+                    <img src="./assets/images/footer-logo.png" alt="인증 원외탕전실 일반한약 조제">
+                </a>
+            </div>
+            <div class="col mr-auto">
+                <p class="footer__info">
+                    <strong>청연한방병원 원외탕전실</strong><br/>
+                    대표 : 이상영     사업자등록번호 : 648-90-00652<br/>
+                    주소 : 전라남도 장성군 동화면 수연로 68-12<br/>
+                    ※ 본 사이트는 한의사 면허증을 소지하고, 한방의료기관에 근무하시는 경우에 가입이 가능합니다<br/>
+                    © Copyright 2016. balky all rights reserved.
+                </p>
+            </div>
+            <div class="ml-auto">
+                <div class="footer__customer">
+                    <strong>청연한방병원 고객센터</strong><br/>
+                    <div class="flex footer__number items-baseline mt-1">
+                        <a href="tel:1644-0072">1644-0072</a>
+                        <span>FAX</span> 061-878-0099
+                    </div>
+                    평일 오전 9시 ~ 오후 5시 30분 (토,일,공휴일 휴무)<br/>
+                    점심시간 : 12PM~1PM
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</div>
+<div id="loader">
+  <span class="loader-overlay">
+    <span class="loader-inner"></span>
+  </span>
+</div>
+
+<script src="./assets/plugins/jquery/jquery.js"></script>
+<script src="./assets/plugins/jquery-ui-1.12.1/jquery-ui.js"></script>
+<script src="./assets/plugins/slick/slick.js"></script>
+<script src="./assets/js/ui.js"></script>
+
+<script src="./assets/plugins/noUiSlider/distribute/nouislider.js"></script>
+<script src="./assets/plugins/noUiSlider/distribute/wNumb.js"></script>
+<script>
+  $(function(){
+    var stepsSlider = document.getElementById('steps-slider');
+    var input0 = document.getElementById('value-0');
+    var input1 = document.getElementById('value-1');
+    var inputs = [input0, input1];
+    noUiSlider.create(stepsSlider, {
+      start: [1, 50],
+      connect: true,
+      range: {
+        'min': 1,
+        'max': 100
+      },
+      format: wNumb({
+        decimals: 0
+      }),
+    });
+    stepsSlider.noUiSlider.on('update', function (values, handle) {
+      inputs[handle].value = values[handle];
+    });
+
+  })
+</script>
+
+</body>
+</html>

@@ -11,13 +11,261 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cbdca2e9-b626-4f98-bc96-01cbd6d92563" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/dev/assets/scss/components/_table.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev/detail3.njk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/images/icon-pagination-arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/.eslintrc.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/.github/FUNDING.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/.npmignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/CHANGELOG.MD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/CONTRIBUTING.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/LICENSE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/banner.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/distribute/nouislider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/distribute/nouislider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/distribute/nouislider.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/distribute/nouislider.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/distribute/wNumb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/_run/404.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/_run/helpers.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/_run/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/_run/menu.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/_run/router.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/assets/base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/assets/browserstack-logo-380x90.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/assets/prism.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/assets/prism.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/assets/wNumb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/behaviour-option.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/behaviour-option/behaviour-option.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/behaviour-option/combined.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/behaviour-option/drag-fixed.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/behaviour-option/drag.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/behaviour-option/hover.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/behaviour-option/snap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/behaviour-option/tap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/behaviour-option/unconstrained.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/configurations.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/configurations/horizontal-ltr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/configurations/horizontal-rtl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/configurations/vertical-ltr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/configurations/vertical-rtl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/contact.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/download.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/events-callbacks.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/events-callbacks/binding-events.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/events-callbacks/binding.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/events-callbacks/buttoninput.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/events-callbacks/class.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/events-callbacks/demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/examples-content/click-pips.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/examples-content/colored-connect.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/examples-content/colorpicker.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/examples-content/dates.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/examples-content/from-center.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/examples-content/hiding-tooltips.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/examples-content/html5.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/examples-content/huge-numbers.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/examples-content/lock.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/examples-content/merging-tooltips.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/examples-content/non-linear.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/examples-content/skipping.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/examples-content/soft-limits.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/examples-content/steps-api.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/examples-content/toggle.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/examples.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/examples/click-pips-setup.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/examples/click-pips.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/examples/colored-setup.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/examples/colored.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/examples/colored.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/examples/colorpicker-slider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/examples/colorpicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/examples/date-helpers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/examples/date-link.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/examples/date-setup.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/examples/date-timestamp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/examples/hiding-tooltips.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/examples/hiding-tooltips.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/examples/html5-append.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/examples/html5-link.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/examples/html5-slider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/examples/html5.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/examples/huge-numbers-direct.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/examples/huge-numbers-setup.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/examples/huge-numbers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/examples/locked-crossupdate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/examples/locked-link.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/examples/locked-setup.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/examples/locked-sliders.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/examples/merging-tooltips-slider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/examples/merging-tooltips.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/examples/nonlinear-link.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/examples/nonlinear-slider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/examples/skipstep-link.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/examples/skipstep-slider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/examples/slider-soft-setup.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/examples/slider-soft.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/examples/steps-event.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/examples/steps-slider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/examples/toggle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/examples/toggle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/index/install.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/index/minimal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/index/showcase-connect.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/index/showcase.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/more.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/more/classes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/more/disable-all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/more/disable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/more/padding.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/more/update-setup.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/more/update.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/number-formatting.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/number-formatting/aria.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/number-formatting/format-events.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/number-formatting/format.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/number-formatting/pips.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/number-formatting/tooltips.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/number-formatting/wnumb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/pips.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/pips/a-slider-range-used.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/pips/count-stepped.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/pips/count.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/pips/pips-usage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/pips/positions-stepped.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/pips/positions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/pips/range.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/pips/steps.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/pips/values-stepped.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/pips/values.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/reference.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/slider-options.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/slider-options/animate-duration.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/slider-options/animate-duration.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/slider-options/animate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/slider-options/connect-more.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/slider-options/connect.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/slider-options/direction-link.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/slider-options/direction.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/slider-options/document-element.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/slider-options/keyboard-support.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/slider-options/limit-link.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/slider-options/limit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/slider-options/margin-link.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/slider-options/margin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/slider-options/orientation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/slider-options/padding-link.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/slider-options/padding.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/slider-options/start.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/slider-options/step.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/slider-options/tooltips.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/slider-read-write.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/slider-read-write/buttons.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/slider-read-write/read.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/slider-read-write/set.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/slider-read-write/write.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/slider-values.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/slider-values/handles-multiple.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/slider-values/handles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/slider-values/non-linear-link.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/slider-values/non-linear-step-link.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/slider-values/non-linear-step.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/slider-values/non-linear.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/slider-values/range-link.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/slider-values/range.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/slider-values/snap-link.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/slider-values/snap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/slider-values/step-link.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/slider-values/step.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/documentation/slider-values/steps.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/generate-site.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/src/nouislider.base.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/src/nouislider.core.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/src/nouislider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/src/nouislider.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/src/nouislider.pips.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/src/nouislider.tooltips.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/tests/addon_pips.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/tests/iframe/slider.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/tests/iframe/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/tests/range.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/tests/slider.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/tests/slider_aria.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/tests/slider_binding.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/tests/slider_classes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/tests/slider_contained_handles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/tests/slider_errors.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/tests/slider_get-step.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/tests/slider_init_max.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/tests/slider_keyboard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/tests/slider_limit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/tests/slider_lookaround.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/tests/slider_non-linear-rtl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/tests/slider_padding.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/tests/slider_rtl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/tests/slider_rtl2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/tests/slider_rtl_update_options.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/tests/slider_set-exactInput.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/tests/slider_setting-getting.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/tests/slider_step.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/tests/slider_step_margin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/tests/slider_three_or_more_handles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/tests/slider_unordered.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/tests/slider_update-numbers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/tests/slider_update.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/plugins/noUiSlider/tests/slider_values.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/scss/components/_actionBox.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/scss/components/_boardTable.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/scss/components/_breadcrumb.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/scss/components/_form.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/scss/components/_infoTable.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/scss/components/_infoTitle.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/scss/components/_links.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/scss/components/_pagination.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/scss/components/_subtit.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/scss/pages/_bangje.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/scss/pages/_mypage.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/bangjedetail.njk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/bangjelist.njk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/benefit.njk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/bonchodetail.njk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/boncholist.njk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/cyber.njk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/eventdetail.njk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/eventlist.njk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/freeimage.njk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/orderlist.njk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/orderpayment.njk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/orderuser.njk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/tangjuninfo.njk" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/assets/js/function.js" beforeDir="false" afterPath="$PROJECT_DIR$/dev/assets/js/function.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/assets/scss/components/_gallery.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dev/assets/scss/components/_gallery.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dev/assets/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dev/assets/scss/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev/assets/scss/pages/_product.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dev/assets/scss/pages/_product.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/assets/scss/pages/_accounts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dev/assets/scss/pages/_accounts.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/layout/base.njk" beforeDir="false" afterPath="$PROJECT_DIR$/dev/layout/base.njk" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/js/ui.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/js/ui.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/detail2.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/detail2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/detail3.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/detail3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/layout/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/layout/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/privacy.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/privacy.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/signup1.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/signup1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/signup2.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/signup2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/signup3.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/signup3.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,18 +286,19 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/dev/assets/images" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="tasks.servers" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/dev/assets/images" />
+      <recent name="$PROJECT_DIR$/dev/assets/plugins" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/dev" />
       <recent name="$PROJECT_DIR$" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/dev/assets/images" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -67,7 +316,9 @@
       <workItem from="1600151327210" duration="185000" />
       <workItem from="1600153421579" duration="7778000" />
       <workItem from="1600271030399" duration="7390000" />
-      <workItem from="1600361242822" duration="4018000" />
+      <workItem from="1600361242822" duration="4100000" />
+      <workItem from="1600491948801" duration="99000" />
+      <workItem from="1601799591657" duration="13384000" />
     </task>
     <servers />
   </component>
@@ -91,6 +342,10 @@
       <screen x="1920" y="143" width="1920" height="1057" />
     </state>
     <state x="2479" y="318" key="#Plugins/1920.143.1920.1057/0.23.1920.1177@1920.143.1920.1057" timestamp="1600089324677" />
+    <state x="2690" y="298" key="RollbackChangesDialog" timestamp="1601821825839">
+      <screen x="1920" y="143" width="1920" height="1057" />
+    </state>
+    <state x="2690" y="298" key="RollbackChangesDialog/1920.143.1920.1057/0.23.1920.1177@1920.143.1920.1057" timestamp="1601821825839" />
     <state x="2388" y="310" key="SettingsEditor" timestamp="1600084949202">
       <screen x="1920" y="143" width="1920" height="1057" />
     </state>
@@ -99,10 +354,10 @@
       <screen x="1920" y="143" width="1920" height="1057" />
     </state>
     <state x="2588" y="363" key="Vcs.Push.Dialog.v2/1920.143.1920.1057/0.23.1920.1177@1920.143.1920.1057" timestamp="1600084219262" />
-    <state x="2586" y="416" width="588" height="510" key="find.popup" timestamp="1600365523486">
+    <state x="2586" y="416" width="588" height="510" key="find.popup" timestamp="1601844437880">
       <screen x="1920" y="143" width="1920" height="1057" />
     </state>
-    <state x="2586" y="416" width="588" height="510" key="find.popup/1920.143.1920.1057/0.23.1920.1177@1920.143.1920.1057" timestamp="1600365523486" />
+    <state x="2586" y="416" width="588" height="510" key="find.popup/1920.143.1920.1057/0.23.1920.1177@1920.143.1920.1057" timestamp="1601844437880" />
     <state x="2543" y="376" width="672" height="678" key="search.everywhere.popup" timestamp="1600363360548">
       <screen x="1920" y="143" width="1920" height="1057" />
     </state>

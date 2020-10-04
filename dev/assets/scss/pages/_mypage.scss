@@ -1,0 +1,94 @@
+.mypage {
+
+  .mypage__lnb {
+    width: 250px;
+    flex: none;
+    margin-right: 20px;
+    border: 1px solid #e2e2e1;
+
+    h2 {
+      font-size: 18px;
+      color:#507a19;
+      line-height: 45px;
+      border-bottom: 1px solid #e2e2e1;
+      padding:0 20px;
+    }
+  }
+  .mypage__gnb {
+    li {
+      a {
+        @apply block;
+        line-height: 40px;
+        color:#888888;
+        font-size: 14px;
+        padding:0 20px;
+        &.active {
+          background:#eee;
+        }
+
+        &:not(.active):hover {
+          background:#fafafa;
+        }
+      }
+    }
+  }
+
+  .order-search {
+    th, td {
+      border: 1px solid #ddd;
+    }
+    th {
+      background:#f9f4f1;
+      text-align: center;
+      font-weight: 400;
+        font-size: 14px;
+      color:#888888;
+    }
+    td {
+      padding: 10px;
+    }
+  }
+
+  .select {
+    border: 1px solid #ddd;
+    height: 35px;
+  }
+  .input {
+    height: 35px;
+  }
+  .submit {
+    height: 35px;
+    color:#fff;
+    background:#94734f;
+    width: 100%;
+  }
+}
+
+.order-history {
+  border: 1px solid #ddd;
+  .order-history__header {
+    background:#f9f4f1;
+    border-bottom: 1px solid #ddd;
+    padding:0 20px;
+    .links {
+      border: none;
+    }
+    a {
+      font-size: 14px;
+    }
+  }
+  .order-history__body {
+    padding: 20px;
+  }
+}
+
+
+.pres-form {
+  max-width: 245px;
+  margin:0 auto;
+
+  .select {
+    border: 1px solid #ddd;
+    height: 40px;
+  }
+}

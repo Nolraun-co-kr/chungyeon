@@ -74,6 +74,10 @@
 
       $(this).parents('.tab').find('.tab__panel').hide();
       $(this).parents('.tab').find('.tab__panel').eq(idx).show();
-    })
+    });
+
+    $('.datepicker').datepicker({
+      dateFormat: 'yy.mm.dd'
+    });
   })
 })(window, $)

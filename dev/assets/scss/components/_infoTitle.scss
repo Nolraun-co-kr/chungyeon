@@ -1,0 +1,17 @@
+.info-title {
+  color:#94734f;
+  font-weight: 500;
+  @apply relative;
+  padding-left: 10px;
+  line-height: 1em;
+  margin-bottom: .5em;
+  &:after {
+    content: '';
+    width: 4px;
+    height: 4px;
+    background:#94734f;
+    position: absolute;
+    left: 0;
+    top: 6px;
+  }
+}

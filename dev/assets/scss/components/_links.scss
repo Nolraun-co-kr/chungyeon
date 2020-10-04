@@ -1,0 +1,20 @@
+.links {
+  @apply flex items-center border-b;
+  height: 45px;
+  border-color:#ded4c8;
+  a {
+    color: #888888;
+    font-size: 18px;
+    padding:0 1em;
+    border-left: 1px solid #ddd;
+
+    &:first-child {
+      padding-left: 0;
+      border: none;
+    }
+
+    &.active {
+      color:#273c0c;
+    }
+  }
+}
