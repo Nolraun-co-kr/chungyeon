@@ -1,0 +1,561 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./assets/plugins/slick/slick.css">
+    <link rel="stylesheet" href="./assets/plugins/jquery-ui-1.12.1/jquery-ui.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    
+    
+</head>
+<body>
+<div class="wrapper">
+    <header class="header">
+   <div class="header__top">
+       <div class="wrap flex items-center">
+           <a href="" class="header__logo"><img src="./assets/images/header-logo.png" alt="청연한방병원 원외탕전실"></a>
+           <div class="header__search ml-auto">
+               <form action="" class="block">
+                   <div class="flex header__form">
+                       <input type="text">
+                       <button type="submit" class="submit">검색</button>
+                   </div>
+               </form>
+           </div>
+           <div class="header__etc flex">
+               <a href="">마이페이지</a>
+               <a href="">장바구니</a>
+               <a href="">로그인</a>
+               <a href="">회원가입</a>
+           </div>
+       </div>
+   </div>
+    <div class="header__gnb">
+        <div class="wrap flex">
+            <nav class="flex mr-auto">
+                <a href="">처방하기</a>
+                <a href="">약속처방</a>
+                <a href="">처방사전</a>
+                <a href="">고객센터</a>
+                <a href="">이벤트</a>
+                <a href="">무료 이미지 사용</a>
+            </nav>
+            <nav class="flex">
+                <a href="">실속처방</a>
+                <a href="">탕제처방</a>
+                <a href="">약속처방</a>
+            </nav>
+        </div>
+    </div>
+</header>
+
+    <div class="container">
+        
+    <div class="sub farmacology">
+        <div class="wrap">
+            <div class="product">
+                <div class="breadcrumb">
+                    <span class="">Home</span>
+                    <span class="">약속처방</span>
+                    <span class="active">탕전처방</span>
+                </div>
+                <div class="farmacology__title">
+                    <span>공동탕전실</span>
+                    <h2>약속처방 배송요청 및 결제</h2>
+                </div>
+                <div class="farmacology__content">
+                    <div class="row">
+                        <div class="col w-700">
+                            <div class="table">
+                                <header class="table__header">
+                                    <h3>처방 요약</h3>
+                                </header>
+                                <table>
+                                    <colgroup>
+                                        <col width="125">
+                                        <col>
+                                        <col width="125">
+                                        <col>
+                                    </colgroup>
+                                    <tbody>
+                                    <tr>
+                                        <th>처방분류</th>
+                                        <td>약속처방</td>
+                                        <th>처방일자</th>
+                                        <td>2020.09.03</td>
+                                    </tr>
+                                    <tr>
+                                        <th>처방기관</th>
+                                        <td>가나한의원</td>
+                                        <th>처방의</th>
+                                        <td>홍길동</td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+
+                            <div class="table mt-8">
+                                <header class="table__header">
+                                    <h3>환자 요약</h3>
+                                    <p>* 환자탭에서 환자를 선택, 또는 환자가 없을경우 [환자등록] 버튼을 눌러주세요.</p>
+                                </header>
+                                <table>
+                                    <colgroup>
+                                        <col width="125">
+                                        <col>
+                                    </colgroup>
+                                    <tbody>
+                                    <tr>
+                                        <th>환자명</th>
+                                        <td>
+                                            <div class="input">
+                                                <input type="text">
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>처방메모</th>
+                                        <td>
+                                            <div class="textarea">
+                                                <textarea name="" id="" cols="30" rows="10" placeholder="환자 특이사항이나 기타사항을 작성 해주세요.(처방메모는 탕전실에 전달되지 않습니다.)"></textarea>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+
+
+                            <div class="cart mt-8">
+                                <div class="board-table">
+                                    <table>
+                                        <colgroup>
+                                            <col width="60">
+                                            <col>
+                                            <col width="100">
+                                            <col width="100">
+                                            <col width="80">
+                                            <col width="50">
+                                        </colgroup>
+                                        <thead>
+                                        <tr>
+                                            <th class="text-center">번호</th>
+                                            <th class="text-left">주문상품정보</th>
+                                            <th class="text-center">발송 가능량</th>
+                                            <th class="text-center">최대수량</th>
+                                            <th class="text-center">처방량</th>
+                                            <th class="text-center"></th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                        
+                                            <tr>
+                                                <td class="text-center">
+                                                   1
+                                                </td>
+                                                <td class="text-left">
+                                                    <a href="" class="cart-item">
+                                                        <img src="./assets/images/prd1.png" alt="">
+                                                        <p>감길탕甘桔湯</p>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">10,000 EA</td>
+                                                <td class="text-center">500 EA</td>
+                                                <td class="text-center">
+                                                    <div class="input" style="height: 35px;">
+                                                        <input type="text">
+                                                    </div>
+                                                </td>
+                                                <td class="text-center">
+                                                    <a href=""><img src="./assets/images/icon-document.png" alt="" class="inline"></a>
+                                                </td>
+                                            </tr>
+                                        
+                                            <tr>
+                                                <td class="text-center">
+                                                   2
+                                                </td>
+                                                <td class="text-left">
+                                                    <a href="" class="cart-item">
+                                                        <img src="./assets/images/prd1.png" alt="">
+                                                        <p>감길탕甘桔湯</p>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">10,000 EA</td>
+                                                <td class="text-center">500 EA</td>
+                                                <td class="text-center">
+                                                    <div class="input" style="height: 35px;">
+                                                        <input type="text">
+                                                    </div>
+                                                </td>
+                                                <td class="text-center">
+                                                    <a href=""><img src="./assets/images/icon-document.png" alt="" class="inline"></a>
+                                                </td>
+                                            </tr>
+                                        
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                            <div class="action-box mt-2">
+                                <a href="" class="button">빠른 약속처방 추가하기</a>
+
+                                <p class="text-xs ml-auto text-color1">
+                                    처방별 최대 수량까지 배송요청 가능하며, 동일한 약속처방<br/>
+                                    요청시에는 포장단위 별로 발송 가능량이 합산
+                                </p>
+                            </div>
+
+                            <div class="table mt-8">
+                                <table>
+                                    <colgroup>
+                                        <col width="125">
+                                        <col>
+                                    </colgroup>
+                                    <tbody>
+                                    <tr>
+                                        <th>요청사항</th>
+                                        <td>
+                                            <div class="textarea">
+                                                <textarea name="" id="" cols="30" rows="10" placeholder="탕전실 요청사항을 작성하여 주세요. (50자 이내)"></textarea>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+
+                        </div>
+                        <div class="col">
+                            <div class="table">
+                                <header class="table__header">
+                                    <h3>환자 정보</h3>
+                                </header>
+                                <table>
+                                    <tbody>
+                                    <tr>
+                                        <th>
+                                            <div class="flex items-center table-tab__nav">
+                                                <a href="" class="tab__navlink active">처방환자</a>
+                                                <a href="" class="tab__navlink">처방내역</a>
+                                                <a href="" class="tab__navlink">환자 검색</a>
+
+                                                <a href="" class="btn ml-auto">환자추가</a>
+                                            </div>
+                                        </th>
+                                    </tr>
+                                    <tr>
+                                        <td style="min-height: 275px;">
+
+
+                                            <div class="info-table" style="">
+                                                <table>
+                                                    <colgroup>
+                                                        <col width="140">
+                                                        <col>
+                                                    </colgroup>
+                                                    <tbody>
+                                                    <tr>
+                                                        <th>환자명</th>
+                                                        <td>
+                                                            홍길동
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>차트번호</th>
+                                                        <td>
+                                                            123123
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>성별 / 나이</th>
+                                                        <td>
+                                                            남 / 43세
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>최근 처방일</th>
+                                                        <td>
+                                                            2020.03.01
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>연락처</th>
+                                                        <td>
+                                                            031-904-0149 / 010-2233-2323
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>주소</th>
+                                                        <td>
+                                                            (12323) 경기도 고양시...
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>비고</th>
+                                                        <td>
+                                                            -
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>환자메모</th>
+                                                        <td>
+
+                                                        </td>
+                                                    </tr>
+
+                                                    </tbody>
+                                                </table>
+                                            </div>
+
+                                            <div class="info-table" style="display: none;">
+                                                <table>
+                                                    <colgroup>
+                                                        <col width="140">
+                                                        <col>
+                                                    </colgroup>
+                                                    <tbody>
+                                                    
+                                                        <tr>
+                                                            <th>등록자</th>
+                                                            <td>
+                                                                내용
+                                                            </td>
+                                                        </tr>
+                                                    
+                                                        <tr>
+                                                            <th>처방명</th>
+                                                            <td>
+                                                                내용
+                                                            </td>
+                                                        </tr>
+                                                    
+                                                        <tr>
+                                                            <th>출전</th>
+                                                            <td>
+                                                                내용
+                                                            </td>
+                                                        </tr>
+                                                    
+                                                        <tr>
+                                                            <th>처방구성</th>
+                                                            <td>
+                                                                내용
+                                                            </td>
+                                                        </tr>
+                                                    
+                                                        <tr>
+                                                            <th>앰플</th>
+                                                            <td>
+                                                                내용
+                                                            </td>
+                                                        </tr>
+                                                    
+                                                        <tr>
+                                                            <th>첩량 X 첩수</th>
+                                                            <td>
+                                                                내용
+                                                            </td>
+                                                        </tr>
+                                                    
+                                                        <tr>
+                                                            <th>총 약재량</th>
+                                                            <td>
+                                                                내용
+                                                            </td>
+                                                        </tr>
+                                                    
+                                                        <tr>
+                                                            <th>탕전 옵션</th>
+                                                            <td>
+                                                                내용
+                                                            </td>
+                                                        </tr>
+                                                    
+                                                        <tr>
+                                                            <th>팩수 / 용량</th>
+                                                            <td>
+                                                                내용
+                                                            </td>
+                                                        </tr>
+                                                    
+                                                        <tr>
+                                                            <th>처방메모</th>
+                                                            <td>
+                                                                내용
+                                                            </td>
+                                                        </tr>
+                                                    
+
+                                                    </tbody>
+                                                </table>
+                                            </div>
+
+
+                                            <div class="board-table border-none" style="display: none;">
+                                                <table>
+                                                    <thead>
+                                                    <tr>
+                                                        <th class="text-center">차트번호</th>
+                                                        <th class="text-center">환자명</th>
+                                                        <th class="text-center">성별/나이</th>
+                                                        <th class="text-center">최근 처방일</th>
+                                                        <th class="text-center">비고</th>
+                                                    </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                    <tr>
+                                                        <td class="text-center">
+                                                            12312
+                                                        </td>
+                                                        <td class="text-center">
+                                                            <a href="" class="text-color5">이언상</a>
+                                                        </td>
+                                                        <td class="text-center">
+                                                            남성 / 43
+                                                        </td>
+                                                        <td class="text-center">
+                                                            2020.01.01
+                                                        </td>
+                                                        <td class="text-center">
+                                                            -
+                                                        </td>
+                                                    </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="table mt-3">
+                                <table>
+                                    <tbody>
+                                    <tr>
+                                        <th>
+                                            <div class="flex items-center table-tab__nav">
+                                                <a href="" class="tab__navlink active">처방비용</a>
+                                                <a href="" class="tab__navlink">비용안내</a>
+                                            </div>
+                                        </th>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="info-table">
+                                                <table>
+                                                    <colgroup>
+                                                        <col width="140">
+                                                        <col>
+                                                    </colgroup>
+                                                    <tbody>
+                                                    <tr>
+                                                        <th>약재비</th>
+                                                        <td>
+                                                            <strong>123,000</strong> 원
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>배송비</th>
+                                                        <td>
+                                                            <strong>4,000</strong> 원 (3kg)
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>총 금액</th>
+                                                        <td>
+                                                            <strong>127,000</strong> 원
+                                                        </td>
+                                                    </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+
+                            <div class="actions">
+                                <a href="" class="btn bg-color6">배송요청</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    </div>
+    <footer class="footer">
+    <div class="row footer__top">
+        <div class="wrap flex">
+            <div class="col flex footer__links">
+                <a href="">이용약관</a>
+                <a href="">개인정보처리방침</a>
+            </div>
+            <div class="col flex ml-auto">
+                <div class="footer__bank flex">
+                    <p>무통장입금 계좌번호 : <strong>스탠다드차타드은행(SC제일은행) 730-20-045475</strong></p>
+                    <p>예금주 : 이상영(청연한방병원원외탕전실)</p>
+                </div>
+                <a href="" class="footer__kakao">
+                    @더한탕전원
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="row footer__bottom">
+        <div class="wrap flex items-start">
+            <div class="col mr-8 footer__logo">
+                <a href="" class="">
+                    <img src="./assets/images/footer-logo.png" alt="인증 원외탕전실 일반한약 조제">
+                </a>
+            </div>
+            <div class="col mr-auto">
+                <p class="footer__info">
+                    <strong>청연한방병원 원외탕전실</strong><br/>
+                    대표 : 이상영     사업자등록번호 : 648-90-00652<br/>
+                    주소 : 전라남도 장성군 동화면 수연로 68-12<br/>
+                    ※ 본 사이트는 한의사 면허증을 소지하고, 한방의료기관에 근무하시는 경우에 가입이 가능합니다<br/>
+                    © Copyright 2016. balky all rights reserved.
+                </p>
+            </div>
+            <div class="ml-auto">
+                <div class="footer__customer">
+                    <strong>청연한방병원 고객센터</strong><br/>
+                    <div class="flex footer__number items-baseline mt-1">
+                        <a href="tel:1644-0072">1644-0072</a>
+                        <span>FAX</span> 061-878-0099
+                    </div>
+                    평일 오전 9시 ~ 오후 5시 30분 (토,일,공휴일 휴무)<br/>
+                    점심시간 : 12PM~1PM
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</div>
+<div id="loader">
+  <span class="loader-overlay">
+    <span class="loader-inner"></span>
+  </span>
+</div>
+
+<script src="./assets/plugins/jquery/jquery.js"></script>
+<script src="./assets/plugins/jquery-ui-1.12.1/jquery-ui.js"></script>
+<script src="./assets/plugins/slick/slick.js"></script>
+<script src="./assets/js/ui.js"></script>
+
+
+
+</body>
+</html>

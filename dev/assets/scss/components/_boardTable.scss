@@ -29,6 +29,13 @@
       background:#fcfcfc;
     }
   }
+
+  &.border-none {
+    th, td {
+      border-right: none !important;
+      border-left: none !important;
+    }
+  }
 }
 
 .board-table-info {

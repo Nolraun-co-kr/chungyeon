@@ -1,0 +1,357 @@
+{% extends 'layout/base.njk' %}
+{% block content %}
+    <div class="sub farmacology">
+        <div class="wrap">
+            <div class="product">
+                <div class="breadcrumb">
+                    <span class="">Home</span>
+                    <span class="">약속처방</span>
+                    <span class="active">탕전처방</span>
+                </div>
+                <div class="farmacology__title">
+                    <span>공동탕전실</span>
+                    <h2>약속처방 배송요청 및 결제</h2>
+                </div>
+                <div class="farmacology__content">
+                    <div class="row">
+                        <div class="col w-700">
+                            <div class="table">
+                                <header class="table__header">
+                                    <h3>처방 요약</h3>
+                                </header>
+                                <table>
+                                    <colgroup>
+                                        <col width="125">
+                                        <col>
+                                        <col width="125">
+                                        <col>
+                                    </colgroup>
+                                    <tbody>
+                                    <tr>
+                                        <th>처방분류</th>
+                                        <td>약속처방</td>
+                                        <th>처방일자</th>
+                                        <td>2020.09.03</td>
+                                    </tr>
+                                    <tr>
+                                        <th>처방기관</th>
+                                        <td>가나한의원</td>
+                                        <th>처방의</th>
+                                        <td>홍길동</td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+
+                            <div class="table mt-8">
+                                <header class="table__header">
+                                    <h3>환자 요약</h3>
+                                    <p>* 환자탭에서 환자를 선택, 또는 환자가 없을경우 [환자등록] 버튼을 눌러주세요.</p>
+                                </header>
+                                <table>
+                                    <colgroup>
+                                        <col width="125">
+                                        <col>
+                                    </colgroup>
+                                    <tbody>
+                                    <tr>
+                                        <th>환자명</th>
+                                        <td>
+                                            <div class="input">
+                                                <input type="text">
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>처방메모</th>
+                                        <td>
+                                            <div class="textarea">
+                                                <textarea name="" id="" cols="30" rows="10" placeholder="환자 특이사항이나 기타사항을 작성 해주세요.(처방메모는 탕전실에 전달되지 않습니다.)"></textarea>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+
+
+                            <div class="cart mt-8">
+                                <div class="board-table">
+                                    <table>
+                                        <colgroup>
+                                            <col width="60">
+                                            <col>
+                                            <col width="100">
+                                            <col width="100">
+                                            <col width="80">
+                                            <col width="50">
+                                        </colgroup>
+                                        <thead>
+                                        <tr>
+                                            <th class="text-center">번호</th>
+                                            <th class="text-left">주문상품정보</th>
+                                            <th class="text-center">발송 가능량</th>
+                                            <th class="text-center">최대수량</th>
+                                            <th class="text-center">처방량</th>
+                                            <th class="text-center"></th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                        {% for i in [1,2] %}
+                                            <tr>
+                                                <td class="text-center">
+                                                   {{ i }}
+                                                </td>
+                                                <td class="text-left">
+                                                    <a href="" class="cart-item">
+                                                        <img src="./assets/images/prd1.png" alt="">
+                                                        <p>감길탕甘桔湯</p>
+                                                    </a>
+                                                </td>
+                                                <td class="text-center">10,000 EA</td>
+                                                <td class="text-center">500 EA</td>
+                                                <td class="text-center">
+                                                    <div class="input" style="height: 35px;">
+                                                        <input type="text">
+                                                    </div>
+                                                </td>
+                                                <td class="text-center">
+                                                    <a href=""><img src="./assets/images/icon-document.png" alt="" class="inline"></a>
+                                                </td>
+                                            </tr>
+                                        {% endfor %}
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                            <div class="action-box mt-2">
+                                <a href="" class="button">빠른 약속처방 추가하기</a>
+
+                                <p class="text-xs ml-auto text-color1">
+                                    처방별 최대 수량까지 배송요청 가능하며, 동일한 약속처방<br/>
+                                    요청시에는 포장단위 별로 발송 가능량이 합산
+                                </p>
+                            </div>
+
+                            <div class="table mt-8">
+                                <table>
+                                    <colgroup>
+                                        <col width="125">
+                                        <col>
+                                    </colgroup>
+                                    <tbody>
+                                    <tr>
+                                        <th>요청사항</th>
+                                        <td>
+                                            <div class="textarea">
+                                                <textarea name="" id="" cols="30" rows="10" placeholder="탕전실 요청사항을 작성하여 주세요. (50자 이내)"></textarea>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+
+                        </div>
+                        <div class="col">
+                            <div class="table">
+                                <header class="table__header">
+                                    <h3>환자 정보</h3>
+                                </header>
+                                <table>
+                                    <tbody>
+                                    <tr>
+                                        <th>
+                                            <div class="flex items-center table-tab__nav">
+                                                <a href="" class="tab__navlink active">처방환자</a>
+                                                <a href="" class="tab__navlink">처방내역</a>
+                                                <a href="" class="tab__navlink">환자 검색</a>
+
+                                                <a href="" class="btn ml-auto">환자추가</a>
+                                            </div>
+                                        </th>
+                                    </tr>
+                                    <tr>
+                                        <td style="min-height: 275px;">
+{#                                            <p class="text-center" >선택 된 환자 정보가 없습니다.</p>#}
+
+                                            <div class="info-table" style="">
+                                                <table>
+                                                    <colgroup>
+                                                        <col width="140">
+                                                        <col>
+                                                    </colgroup>
+                                                    <tbody>
+                                                    <tr>
+                                                        <th>환자명</th>
+                                                        <td>
+                                                            홍길동
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>차트번호</th>
+                                                        <td>
+                                                            123123
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>성별 / 나이</th>
+                                                        <td>
+                                                            남 / 43세
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>최근 처방일</th>
+                                                        <td>
+                                                            2020.03.01
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>연락처</th>
+                                                        <td>
+                                                            031-904-0149 / 010-2233-2323
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>주소</th>
+                                                        <td>
+                                                            (12323) 경기도 고양시...
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>비고</th>
+                                                        <td>
+                                                            -
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>환자메모</th>
+                                                        <td>
+
+                                                        </td>
+                                                    </tr>
+
+                                                    </tbody>
+                                                </table>
+                                            </div>
+
+                                            <div class="info-table" style="display: none;">
+                                                <table>
+                                                    <colgroup>
+                                                        <col width="140">
+                                                        <col>
+                                                    </colgroup>
+                                                    <tbody>
+                                                    {% for title in ['등록자', '처방명', '출전', '처방구성', '앰플', '첩량 X 첩수', '총 약재량', '탕전 옵션', '팩수 / 용량' , '처방메모'] %}
+                                                        <tr>
+                                                            <th>{{ title }}</th>
+                                                            <td>
+                                                                내용
+                                                            </td>
+                                                        </tr>
+                                                    {% endfor %}
+
+                                                    </tbody>
+                                                </table>
+                                            </div>
+
+
+                                            <div class="board-table border-none" style="display: none;">
+                                                <table>
+                                                    <thead>
+                                                    <tr>
+                                                        <th class="text-center">차트번호</th>
+                                                        <th class="text-center">환자명</th>
+                                                        <th class="text-center">성별/나이</th>
+                                                        <th class="text-center">최근 처방일</th>
+                                                        <th class="text-center">비고</th>
+                                                    </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                    <tr>
+                                                        <td class="text-center">
+                                                            12312
+                                                        </td>
+                                                        <td class="text-center">
+                                                            <a href="" class="text-color5">이언상</a>
+                                                        </td>
+                                                        <td class="text-center">
+                                                            남성 / 43
+                                                        </td>
+                                                        <td class="text-center">
+                                                            2020.01.01
+                                                        </td>
+                                                        <td class="text-center">
+                                                            -
+                                                        </td>
+                                                    </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="table mt-3">
+                                <table>
+                                    <tbody>
+                                    <tr>
+                                        <th>
+                                            <div class="flex items-center table-tab__nav">
+                                                <a href="" class="tab__navlink active">처방비용</a>
+                                                <a href="" class="tab__navlink">비용안내</a>
+                                            </div>
+                                        </th>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="info-table">
+                                                <table>
+                                                    <colgroup>
+                                                        <col width="140">
+                                                        <col>
+                                                    </colgroup>
+                                                    <tbody>
+                                                    <tr>
+                                                        <th>약재비</th>
+                                                        <td>
+                                                            <strong>123,000</strong> 원
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>배송비</th>
+                                                        <td>
+                                                            <strong>4,000</strong> 원 (3kg)
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>총 금액</th>
+                                                        <td>
+                                                            <strong>127,000</strong> 원
+                                                        </td>
+                                                    </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+
+                            <div class="actions">
+                                <a href="" class="btn bg-color6">배송요청</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+{% endblock %}
+
+{% block script %}
+
+{% endblock %}

@@ -1,0 +1,516 @@
+{% extends 'layout/base.njk' %}
+{% block content %}
+    <div class="sub farmacology">
+        <div class="wrap">
+            <div class="product">
+                <div class="breadcrumb">
+                    <span class="">Home</span>
+                    <span class="">약속처방</span>
+                    <span class="active">탕전처방</span>
+                </div>
+                <div class="farmacology__title">
+                    <span>공동탕전실</span>
+                    <h2>배송지 입력 및 탕전실 접수</h2>
+                </div>
+                <p class="text-sm text-color6">
+                    ※ '결제하기’를 선택하면 접수처방내역에 저장되지만 결제가 완료되지 않으면 조제가 시작되지 않습니다.<br/>
+                    ※ 임시 저장된 처방전은 약재 및 배송정보를 수정할 수 있습니다.
+                </p>
+
+                <div class="board-table border-none mt-8" style="">
+                    <table>
+                        <thead>
+                        <tr>
+                            <th class="text-center">조제의뢰처</th>
+                            <th class="text-center">처방번호</th>
+                            <th class="text-center">처방분류</th>
+                            <th class="text-center">처방일자</th>
+                            <th class="text-center">처방기관</th>
+                            <th class="text-center">처방의</th>
+                            <th class="text-center">접수상태</th>
+                            <th class="text-center">결제상태</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td class="text-center">
+                                한의원명
+                            </td>
+                            <td class="text-center">
+                                123123123
+                            </td>
+                            <td class="text-center">
+                                약속처방
+                            </td>
+                            <td class="text-center">
+                                2020.01.01
+                            </td>
+                            <td class="text-center">
+                                -
+                            </td>
+                            <td class="text-center">
+                                -
+                            </td>
+                            <td class="text-center">
+                                -
+                            </td>
+                            <td class="text-center">
+                                -
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <hr class="my-8">
+
+                <div class="farmacology__content" >
+                    <div class="row">
+                        <div class="col w-700">
+                            <div class="table">
+                                <header class="table__header">
+                                    <h3>환자 정보</h3>
+                                </header>
+                                <table>
+                                    <colgroup>
+                                        <col width="125">
+                                        <col>
+                                        <col width="125">
+                                        <col>
+                                    </colgroup>
+                                    <tbody>
+                                    <tr>
+                                        <th>이름</th>
+                                        <td>홍길동 (43세 / 남)</td>
+                                        <th>차트번호</th>
+                                        <td>123123</td>
+                                    </tr>
+                                    <tr>
+                                        <th>연락처</th>
+                                        <td colspan="3">010-2222-3333</td>
+                                    </tr>
+                                    <tr>
+                                        <th>주소</th>
+                                        <td colspan="3">
+                                            (12312) 경기도 고양시 ...
+                                        </td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+
+                            <div class="table mt-8">
+                                <header class="table__header">
+                                    <h3>처방전</h3>
+                                </header>
+                                <table>
+                                    <colgroup>
+                                        <col width="125">
+                                        <col>
+                                        <col width="125">
+                                        <col>
+                                    </colgroup>
+                                    <tbody>
+                                    <tr>
+                                        <th>처방명</th>
+                                        <td colspan="3">감기</td>
+                                    </tr>
+                                    <tr>
+                                        <th>약재구성</th>
+                                        <td colspan="3">내용</td>
+                                    </tr>
+                                    <tr>
+                                        <th>녹용(앰플)</th>
+                                        <td>
+                                            내용
+                                        </td>
+                                        <th>자하거(앰플)</th>
+                                        <td>
+                                            내용
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>추가법제</th>
+                                        <td colspan="3">
+                                            내용
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>총약재량</th>
+                                        <td>
+                                            내용
+                                        </td>
+                                        <th>팩수/팩용량</th>
+                                        <td>
+                                            내용
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>탕전법</th>
+                                        <td>
+                                            내용
+                                        </td>
+                                        <th>특수탕전</th>
+                                        <td>
+                                            내용
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>감미제</th>
+                                        <td colspan="3">
+                                            내용
+                                        </td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+
+                            <div class="table mt-8">
+                                <header class="table__header">
+                                    <h3>기타설정</h3>
+                                </header>
+                                <table>
+                                    <colgroup>
+                                        <col width="125">
+                                        <col>
+                                        <col width="125">
+                                        <col>
+                                    </colgroup>
+                                    <tbody>
+                                    <tr>
+                                        <th>포장법</th>
+                                        <td colspan="3">감기</td>
+                                    </tr>
+                                    <tr>
+                                        <th>박스</th>
+                                        <td>내용</td>
+                                        <th>박스</th>
+                                        <td>내용</td>
+                                    </tr>
+                                    <tr>
+                                        <th>파우치</th>
+                                        <td>내용</td>
+                                        <th>파우치</th>
+                                        <td>내용</td>
+                                    </tr>
+
+                                    </tbody>
+                                </table>
+                            </div>
+
+                            <div class="table mt-8">
+                                <header class="table__header">
+                                    <h3>조제지시 및 복용법</h3>
+                                </header>
+                                <table>
+                                    <colgroup>
+                                        <col width="125">
+                                        <col>
+                                    </colgroup>
+                                    <tbody>
+                                    <tr>
+                                        <th class="text-center">
+                                            조제지시
+                                            <div class="action-box mt-2">
+                                                <a href="" class="button fill smaller">불러오기</a>
+                                            </div>
+                                        </th>
+                                        <td>
+                                            <div class="textarea">
+                                                <textarea name="" id="" cols="30" rows="10"></textarea>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th class="text-center">
+                                            복용법
+                                            <div class="action-box mt-2">
+                                                <a href="" class="button fill smaller">불러오기</a>
+                                            </div>
+                                        </th>
+                                        <td>
+                                            <div class="textarea">
+                                                <textarea name="" id="" cols="30" rows="10"></textarea>
+                                            </div>
+                                        </td>
+                                    </tr>
+
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="table">
+                                <header class="table__header">
+                                    <h3>배송 정보</h3>
+                                </header>
+                                <table>
+                                    <colgroup>
+                                        <col width="125">
+                                        <col>
+                                    </colgroup>
+                                    <tbody>
+                                    <tr>
+                                        <th>묶음배송</th>
+                                        <td>
+                                            <a href="" class="underline">묶음배송 설정하기</a>
+                                            <p class="text-xs mt-1 text-color6">
+                                                * [조제대기]인 처방과 묶음배송 가능합니다.
+                                            </p>
+                                        </td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="table mt-4">
+                                <header class="table__header">
+                                    <h3>보내는 사람</h3>
+                                </header>
+                                <table>
+                                    <colgroup>
+                                        <col width="125">
+                                        <col>
+                                    </colgroup>
+                                    <tbody>
+                                    <tr>
+                                        <th>발신인</th>
+                                        <td>
+                                            <div class="input">
+                                                <input type="text">
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>연락처</th>
+                                        <td>
+                                            <div class="input">
+                                                <input type="text">
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>휴대폰</th>
+                                        <td>
+                                            <div class="input">
+                                                <input type="text">
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>우편번호</th>
+                                        <td>
+                                            <div class="flex">
+                                                <div class="input">
+                                                    <input type="text" id="postcode" placeholder="우편번호" readonly>
+                                                </div>
+                                                <button onclick="sample3_execDaumPostcode()" class="btn ml-2" style="border-radius: 0;width: 100px;height: 35px;border: none;line-height: 35px;">우편번호 찾기</button>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>주소</th>
+                                        <td>
+                                            <div class="input">
+                                                <input type="text" id="addr1" placeholder="주소" readonly>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>상세주소</th>
+                                        <td>
+                                            <div class="input">
+                                                <input type="text" id="sample3_detailAddress" placeholder="상세주소">
+                                                <input type="text" id="sample3_extraAddress" placeholder="참고항목" hidden>
+                                            </div>
+                                            <div id="wrap" style="display:none;border:1px solid;width:100%;height:300px;margin:5px 0;position:relative">
+                                                <img src="//t1.daumcdn.net/postcode/resource/images/close.png" id="btnFoldWrap" style="cursor:pointer;position:absolute;right:0px;top:-1px;z-index:1" onclick="foldDaumPostcode()" alt="접기 버튼">
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="table mt-4">
+                                <header class="table__header">
+                                    <h3>요청사항</h3>
+                                </header>
+                                <table>
+                                    <colgroup>
+                                        <col width="125">
+                                        <col>
+                                    </colgroup>
+                                    <tbody>
+                                    <tr>
+                                        <th>배송메모</th>
+                                        <td>
+                                            <div class="textarea" style="min-height: 100px;">
+                                                <textarea name="" id="" rows="5"></textarea>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="table mt-4">
+                                <header class="table__header">
+                                    <h3>비용안내</h3>
+                                </header>
+                                <table>
+                                    <colgroup>
+                                        <col width="125">
+                                        <col width="90">
+                                        <col>
+                                    </colgroup>
+                                    <tbody>
+                                    <tr>
+                                        <th rowspan="2">SQC<br/>품질<br/>관리비</th>
+                                        <th>약재비</th>
+                                        <td>
+                                            <div class="flex">
+                                                0원 x 20첩
+                                                <strong class="ml-auto">0</strong>원
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>기본료</th>
+                                        <td>
+                                            <div class="flex">
+                                                일반탕전 x 1ea
+                                                <strong class="ml-auto">13,500</strong>원
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th rowspan="2">SQC<br/>공정<br/>관리비</th>
+                                        <th>조제비</th>
+                                        <td>
+                                            <div class="flex">
+                                                190원 x 14팩
+                                                <strong class="ml-auto">8,500</strong>원
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>포장비</th>
+                                        <td>
+                                            <div class="flex">
+                                                500원 x 1팩
+                                                <strong class="ml-auto">500</strong>원
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>
+                                            SQC<br/>배송<br/>관리비
+                                        </th>
+                                        <th>배송비</th>
+                                        <td>
+                                            <div class="flex">
+                                                2,500원 x 1팩
+                                                <strong class="ml-auto">2,500</strong>원
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th colspan="2">총 합계</th>
+                                        <td>
+                                            <div class="flex">
+                                                <strong class="ml-auto text-color7">27,500</strong>원
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+
+                            <div class="actions">
+                                <a href="" class="btn bg-color6">결제하기</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+{% endblock %}
+
+{% block script %}
+    <script src="https://t1.daumcdn.net/mapjsapi/bundle/postcode/prod/postcode.v2.js"></script>
+    <script>
+      // 우편번호 찾기 찾기 화면을 넣을 element
+      var element_wrap = document.getElementById('wrap');
+
+      function foldDaumPostcode() {
+        // iframe을 넣은 element를 안보이게 한다.
+        element_wrap.style.display = 'none';
+      }
+
+      function sample3_execDaumPostcode() {
+        // 현재 scroll 위치를 저장해놓는다.
+        var currentScroll = Math.max(document.body.scrollTop, document.documentElement.scrollTop);
+        new daum.Postcode({
+          oncomplete: function(data) {
+            // 검색결과 항목을 클릭했을때 실행할 코드를 작성하는 부분.
+
+            // 각 주소의 노출 규칙에 따라 주소를 조합한다.
+            // 내려오는 변수가 값이 없는 경우엔 공백('')값을 가지므로, 이를 참고하여 분기 한다.
+            var addr = ''; // 주소 변수
+            var extraAddr = ''; // 참고항목 변수
+
+            //사용자가 선택한 주소 타입에 따라 해당 주소 값을 가져온다.
+            if (data.userSelectedType === 'R') { // 사용자가 도로명 주소를 선택했을 경우
+              addr = data.roadAddress;
+            } else { // 사용자가 지번 주소를 선택했을 경우(J)
+              addr = data.jibunAddress;
+            }
+
+            // 사용자가 선택한 주소가 도로명 타입일때 참고항목을 조합한다.
+            if(data.userSelectedType === 'R'){
+              // 법정동명이 있을 경우 추가한다. (법정리는 제외)
+              // 법정동의 경우 마지막 문자가 "동/로/가"로 끝난다.
+              if(data.bname !== '' && /[동|로|가]$/g.test(data.bname)){
+                extraAddr += data.bname;
+              }
+              // 건물명이 있고, 공동주택일 경우 추가한다.
+              if(data.buildingName !== '' && data.apartment === 'Y'){
+                extraAddr += (extraAddr !== '' ? ', ' + data.buildingName : data.buildingName);
+              }
+              // 표시할 참고항목이 있을 경우, 괄호까지 추가한 최종 문자열을 만든다.
+              if(extraAddr !== ''){
+                extraAddr = ' (' + extraAddr + ')';
+              }
+              // 조합된 참고항목을 해당 필드에 넣는다.
+              document.getElementById("sample3_extraAddress").value = extraAddr;
+
+            } else {
+              document.getElementById("sample3_extraAddress").value = '';
+            }
+
+            // 우편번호와 주소 정보를 해당 필드에 넣는다.
+            document.getElementById('postcode').value = data.zonecode;
+            document.getElementById("addr1").value = addr;
+            // 커서를 상세주소 필드로 이동한다.
+            document.getElementById("sample3_detailAddress").focus();
+
+            // iframe을 넣은 element를 안보이게 한다.
+            // (autoClose:false 기능을 이용한다면, 아래 코드를 제거해야 화면에서 사라지지 않는다.)
+            element_wrap.style.display = 'none';
+
+            // 우편번호 찾기 화면이 보이기 이전으로 scroll 위치를 되돌린다.
+            document.body.scrollTop = currentScroll;
+          },
+          // 우편번호 찾기 화면 크기가 조정되었을때 실행할 코드를 작성하는 부분. iframe을 넣은 element의 높이값을 조정한다.
+          onresize : function(size) {
+            element_wrap.style.height = size.height+'px';
+          },
+          width : '100%',
+          height : '100%'
+        }).embed(element_wrap);
+
+        // iframe을 넣은 element를 보이게 한다.
+        element_wrap.style.display = 'block';
+      }
+    </script>
+{% endblock %}

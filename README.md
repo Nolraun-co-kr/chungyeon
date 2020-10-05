@@ -20,9 +20,9 @@
 | 상품 리스트 | 26 | [:link:](https://suspicious-jackson-d2abd5.netlify.app/list.html) |
 | 실속처방 | 27 - 33 | [:link:](https://suspicious-jackson-d2abd5.netlify.app/detail2.html) |
 | 탕전처방 | 34 - 44 | [:link:](https://suspicious-jackson-d2abd5.netlify.app/detail3.html) |
-| 배송지 입력 및 탕전실 접수 | 45 - 47 | - |
+| 배송지 입력 및 탕전실 접수 | 45 - 47 | [:link:](https://suspicious-jackson-d2abd5.netlify.app/orderinfo.html) |
 | 사전처방 | 48 - 56 | [:link:](https://suspicious-jackson-d2abd5.netlify.app/detail.html) |
-| 약속처방 | 57 - 63 | - |
+| 약속처방 | 57 - 63 | [:link:](https://suspicious-jackson-d2abd5.netlify.app/yacksok.html) |
 | 방제사전 리스트 | 64 - 66 | [:link:](https://suspicious-jackson-d2abd5.netlify.app/bangjelist.html) | 
 | 방제사전 상세 | 67 - 68 | [:link:](https://suspicious-jackson-d2abd5.netlify.app/bangjedetail.html) |
 | 본처사전 리스트 | 69 - 70 | [:link:](https://suspicious-jackson-d2abd5.netlify.app/boncholist.html) |
