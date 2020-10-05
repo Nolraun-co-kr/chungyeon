@@ -1,0 +1,74 @@
+{% extends 'layout/base.njk' %}
+{% block content %}
+    <div class="sub">
+        <div class="section pb-20">
+            <div class="wrap">
+                <div class="breadcrumb">
+                    <span class="">Home</span>
+                    <span class="">약속처방</span>
+                    <span class="active">사전처방</span>
+                </div>
+
+                <div class="links mb-10">
+                    <a href="" class="active">FAQ</a>
+                    <a href="">탕전시스템 안내</a>
+                    <a href="" class="">사이버 견학</a>
+                    <a href="" class="">이벤트</a>
+                    <a href="">공지사항</a>
+                    <a href="" class="">회원 혜택 안내</a>
+                </div>
+
+                <h2 class="info-title">FAQ</h2>
+                <section class="section mt-4">
+                    <div class="board-table-info">
+                        <span>총 검색 건수 <strong>2</strong>건</span>
+                    </div>
+                    <div class="board-table">
+                        <table>
+                            <colgroup>
+                                <col width="110">
+                                <col width="">
+                                <col width="100">
+                                <col width="100">
+                                <col width="100">
+                            </colgroup>
+                            <thead>
+                            <tr>
+                                <th class="text-center">번호</th>
+                                <th class="text-left">제목</th>
+                                <th class="text-left">작성자</th>
+                                <th class="text-left">등록일</th>
+                                <th class="text-center">조회수</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            {% for i in [1,2,3,4,5] %}
+                                <tr>
+                                    <td class="text-center">01</td>
+                                    <td class="text-left">
+                                        <a href="">제목....</a>
+                                    </td>
+                                    <td class="text-left">홍길동</td>
+                                    <td class="text-left">2020.01.01</td>
+                                    <td class="text-center">1</td>
+                                </tr>
+                            {% endfor %}
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="pagination mt-8">
+                        <div class="wrap">
+                            <a href="" class="arrow arrow-prev">이전</a>
+                            <a href="" class="active">1</a>
+                            <a href="" class="">2</a>
+                            <a href="" class="">3</a>
+                            <a href="" class="">4</a>
+                            <a href="" class="">5</a>
+                            <a href="" class="arrow arrow-next">다음</a>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+{% endblock %}
