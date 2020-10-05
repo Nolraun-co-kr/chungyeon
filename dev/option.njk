@@ -1,0 +1,159 @@
+{% extends 'layout/base.njk' %}
+{% block content %}
+    <div class="sub ">
+        <div class="wrap">
+            <div class="breadcrumb">
+                <span class="">Home</span>
+                <span class="">약속처방</span>
+                <span class="active">사전처방</span>
+            </div>
+            <div class="subtit">
+                <span>마이페이지</span>
+                <h2>주문내역</h2>
+            </div>
+
+            <div class="mypage pb-20">
+                <div class="row items-start">
+                    <div class="col mypage__lnb">
+                        <h2>My The Han</h2>
+                        <ul class="mypage__gnb">
+                            <li><a href="" class="">주문내역</a></li>
+                            <li><a href="" class="">장바구니</a></li>
+                            <li><a href="" class="active">한의사 관리</a></li>
+                            <li><a href="" class="">처방옵션</a></li>
+                            <li><a href="" class="">보관함</a></li>
+                            <li><a href="" class="">마일리지/적립금</a></li>
+                            <li><a href="" class="">통계관리</a></li>
+                            <li><a href="" class="">내 정보</a></li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <div class="board-table-info items-end">
+                            <h2 class="info-title">복용지시</h2>
+
+                            <a href="" class="action-button ml-auto">
+                                + 직접작성
+                            </a>
+                            <a href="" class="action-button ml-2">
+                                + 등록하기
+                            </a>
+                        </div>
+                        <section class="section">
+                            <div class="board-table">
+                                <table>
+                                    <colgroup>
+                                        <col>
+                                        <col width="40">
+                                        <col width="50">
+                                    </colgroup>
+                                    <thead>
+                                    <tr>
+                                        <th class="text-left">[복용지시서 예시]</th>
+                                        <th class="text-center"></th>
+                                        <th class="text-center"></th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    {% for i in [1,2,3,4,5] %}
+                                        <tr>
+                                            <td class="text-left">
+                                                <a href="">제목</a>
+                                            </td>
+                                            <td class="text-center">
+                                                <a href=""><img src="./assets/images/icon-write-dd.png" alt="" class="inline"></a>
+                                            </td>
+                                            <td class="text-center">
+                                                <a href=""><img src="./assets/images/icon-document.png" alt="" class="inline"></a>
+                                            </td>
+                                        </tr>
+                                    {% endfor %}
+                                    </tbody>
+                                </table>
+                            </div>
+
+                                <div class="action-box ml-auto w-64">
+                                    <a href="" class="button small">이전</a>
+                                    <a href="" class="button fill small">다음</a>
+                                </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal js-active" id="" style="">
+        <div class="modal__content">
+            <header class="modal__header">
+                <h2 class="modal__title">처방하기</h2>
+                <button class="modal__close">닫기</button>
+            </header>
+            <div class="modal__body">
+                <div class="pres-form">
+                    <div class="select">
+                        <select name="" id="">
+                            <option value="">같은 약제 처방</option>
+                        </select>
+                    </div>
+                    <p class="text-center my-6">처방 하시겠습니까?</p>
+                    <div class="action-box justify-center">
+                        <a href="" class="button small fill">확인</a>
+                        <a href="" class="button small">취소</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal js-active" id="" style="">
+        <div class="modal__content">
+            <header class="modal__header">
+                <h2 class="modal__title">복용지시 파일등록</h2>
+                <button class="modal__close">닫기</button>
+            </header>
+            <div class="modal__body">
+                <div class="">
+                    <div class="input">
+                        <input type="text" placeholder="제목">
+                    </div>
+
+                    <div class="input flex mt-2">
+                        <input type="text" placeholder="제목">
+                        <label for="file" class="filebtn">
+                            <input type="file" id="file" hidden>
+                            <span>파일찾기</span>
+                        </label>
+                    </div>
+                    <p class="text-sm text-gray-500 mt-1">* 최대용량 10MB(docx, doc, hwp, pdf) 첨부 가능합니다.</p>
+                    <div class="action-box justify-center mt-8">
+                        <a href="" class="button small fill" style="margin:0;max-width: 100%;">확인</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal js-active" id="" style="">
+        <div class="modal__content">
+            <header class="modal__header">
+                <h2 class="modal__title">조제지시 등록</h2>
+                <button class="modal__close">닫기</button>
+            </header>
+            <div class="modal__body">
+                <div class="">
+                    <div class="input">
+                        <input type="text" placeholder="제목">
+                    </div>
+
+                    <div class="textarea mt-2">
+                        <textarea name="" id="" cols="30" rows="10"></textarea>
+                    </div>
+
+                    <div class="action-box justify-center mt-8">
+                        <a href="" class="button small fill" style="margin:0;max-width: 100%;">확인</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

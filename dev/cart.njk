@@ -1,0 +1,128 @@
+{% extends 'layout/base.njk' %}
+{% block content %}
+    <div class="sub cart">
+        <div class="wrap">
+            <div class="breadcrumb">
+                <span class="">Home</span>
+                <span class="">약속처방</span>
+                <span class="active">사전처방</span>
+            </div>
+            <div class="subtit">
+                <span>마이페이지</span>
+                <h2>주문내역</h2>
+            </div>
+
+            <div class="mypage pb-20">
+                <div class="row items-start">
+                    <div class="col mypage__lnb">
+                        <h2>My The Han</h2>
+                        <ul class="mypage__gnb">
+                            <li><a href="" class="">주문내역</a></li>
+                            <li><a href="" class="active">장바구니</a></li>
+                            <li><a href="" class="">한의사 관리</a></li>
+                            <li><a href="" class="">처방옵션</a></li>
+                            <li><a href="" class="">보관함</a></li>
+                            <li><a href="" class="">마일리지/적립금</a></li>
+                            <li><a href="" class="">통계관리</a></li>
+                            <li><a href="" class="">내 정보</a></li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <h2 class="info-title">장바구니</h2>
+                        <div class="cart-header">
+                            <label class="checkbox" for="allCheck">
+                                <input type="checkbox" id="allCheck" hidden>
+                                <span></span>
+                                <p>전체선택</p>
+                            </label>
+                            <button class="rm">선택삭제</button>
+                        </div>
+
+                        <section class="section mt-12">
+                            <div class="board-table-info">
+                                <span>전체 <strong>(2)</strong></span>
+                            </div>
+                            <div class="board-table">
+                                <table>
+                                    <colgroup>
+                                        <col width="60">
+                                        <col width="80">
+                                        <col width="100">
+                                        <col>
+                                        <col width="60">
+                                        <col width="80">
+                                        <col width="80">
+                                        <col width="80">
+                                        <col width="90">
+                                        <col width="50">
+                                    </colgroup>
+                                    <thead>
+                                    <tr>
+                                        <th class="text-center">선택</th>
+                                        <th class="text-center">제형</th>
+                                        <th class="text-center">담당한의사</th>
+                                        <th class="text-left">주문상품정보</th>
+                                        <th class="text-center">수량</th>
+                                        <th class="text-center">상품금액</th>
+                                        <th class="text-center">조제비</th>
+                                        <th class="text-center">배송비</th>
+                                        <th class="text-center">처방일자</th>
+                                        <th class="text-center"></th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    {% for i in [1,2,3,4,5] %}
+                                        <tr>
+                                            <td class="text-center">
+                                                <label for="c{{ i }}" class="checkbox justify-center">
+                                                    <input type="checkbox" id="c{{ i }}" hidden>
+                                                    <span></span>
+                                                </label>
+                                            </td>
+                                            <td class="text-center">123123</td>
+                                            <td class="text-center">홍길동</td>
+                                            <td class="text-left">
+                                                <a href="" class="cart-item">
+                                                    <img src="./assets/images/prd1.png" alt="">
+                                                    <p>감길탕甘桔湯</p>
+                                                </a>
+                                            </td>
+                                            <td class="text-center">1 개</td>
+                                            <td class="text-center">3,000 원</td>
+                                            <td class="text-center">3,000 원</td>
+                                            <td class="text-center">3,000 원</td>
+                                            <td class="text-center">
+                                                2020.01.01
+                                            </td>
+                                            <td class="text-center">
+                                                <a href=""><img src="./assets/images/icon-document.png" alt="" class="inline"></a>
+                                            </td>
+                                        </tr>
+                                    {% endfor %}
+                                    </tbody>
+                                </table>
+                            </div>
+
+                            <div class="cart-total">
+                                <strong>스토어 주문합계</strong>
+                                <p>
+                                    상품금액 246,000원
+                                    <span>+</span>
+                                    조제금액 20,000원
+                                    <span>+</span>
+                                    배송비 6,000원
+                                    <span>=</span>
+                                    <strong class="total">252,000</strong>원
+                                </p>
+                                <div class="action-box">
+                                    <a href="" class="button fill">결제하기</a>
+                                </div>
+                            </div>
+                        </section>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

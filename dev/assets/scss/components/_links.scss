@@ -17,4 +17,12 @@
       color:#273c0c;
     }
   }
+
+  &.small {
+    border: none;
+
+    a {
+      font-size: 14px;
+    }
+  }
 }

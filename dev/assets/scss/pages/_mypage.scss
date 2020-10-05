@@ -92,3 +92,41 @@
     height: 40px;
   }
 }
+
+
+.order-detail {
+  border: 1px solid #ddd;
+  border-top: 1px solid #000;
+  .col {
+    padding:0 1rem;
+  }
+  .order-detail__header {
+    line-height: 40px;
+    border-bottom: 1px solid #ddd;
+    strong {
+      font-size: 14px;
+    }
+  }
+
+  .order-detail__list {
+    padding: 1rem 0;
+    li {
+      @apply flex;
+      font-size: 14px;
+      color:#888;
+
+      span {
+        margin-right: auto;
+      }
+      & ~ li {
+        margin-top: .5rem;
+      }
+      &.block {
+        display: block;
+        span {
+          display: block;
+        }
+      }
+    }
+  }
+}

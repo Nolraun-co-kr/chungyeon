@@ -30,15 +30,15 @@
 | 주문내역 리스트  | 73 - 75 | [:link:](https://suspicious-jackson-d2abd5.netlify.app/orderlist.html) |
 | 주문내역 환자정보  | 76 - 81 | [:link:](https://suspicious-jackson-d2abd5.netlify.app/orderuser.html) |
 | 주문내역 결제정보  | 82 - 83 | [:link:](https://suspicious-jackson-d2abd5.netlify.app/orderpayment.html) |
-| 장바구니  | 84 - 86 | - |
-| 한의사 관리 | 87 - 92 | - |
-| 한의사 인적사항 | 93 | - |
-| 처방옵션 | 94 - 98 | - |
-| 보관함 | 99 - 100 | - |
-| 마일리지/적립금 | 101 - 103 | - |
-| 통계관리 | 104 - 105 | - |
-| 내정보 | 106 - 108 | - |
-| 내정보 - 부계정 관리 | 109 - 112 | - |
+| 장바구니  | 84 - 86 | [:link:](https://suspicious-jackson-d2abd5.netlify.app/cart.html) |
+| 한의사 관리 | 87 - 92 | [:link:](https://suspicious-jackson-d2abd5.netlify.app/medicinelist.html) | 
+| 한의사 인적사항 | 93 | [:link:](https://suspicious-jackson-d2abd5.netlify.app/medicinedetail.html) | 
+| 처방옵션 | 94 - 98 | [:link:](https://suspicious-jackson-d2abd5.netlify.app/option.html) | 
+| 보관함 | 99 - 100 | [:link:](https://suspicious-jackson-d2abd5.netlify.app/storage.html) | 
+| 마일리지/적립금 | 101 - 103 | [:link:](https://suspicious-jackson-d2abd5.netlify.app/point.html) | 
+| 통계관리 | 104 - 105 | [:link:](https://suspicious-jackson-d2abd5.netlify.app/chart.html) |
+| 내정보 | 106 - 108 | [:link:](https://suspicious-jackson-d2abd5.netlify.app/myinfo.html) | 
+| 내정보 - 부계정 관리 | 109 - 112 | [:link:](https://suspicious-jackson-d2abd5.netlify.app/myinfo2.html) | 
 | FAQ 리스트 | 113 - 114 | [:link:](https://suspicious-jackson-d2abd5.netlify.app/faqlist.html) |
 | FAQ 상세 | 115 | [:link:](https://suspicious-jackson-d2abd5.netlify.app/faqdetail.html) |
 | 탕전시스템 안내 | 116 - 117 | [:link:](https://suspicious-jackson-d2abd5.netlify.app/tangjuninfo.html) |

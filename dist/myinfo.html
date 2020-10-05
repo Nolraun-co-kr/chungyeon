@@ -74,9 +74,9 @@
                     <div class="col mypage__lnb">
                         <h2>My The Han</h2>
                         <ul class="mypage__gnb">
-                            <li><a href="" class="active">주문내역</a></li>
+                            <li><a href="" class="">주문내역</a></li>
                             <li><a href="" class="">장바구니</a></li>
-                            <li><a href="" class="">한의사 관리</a></li>
+                            <li><a href="" class="active">한의사 관리</a></li>
                             <li><a href="" class="">처방옵션</a></li>
                             <li><a href="" class="">보관함</a></li>
                             <li><a href="" class="">마일리지/적립금</a></li>
@@ -86,12 +86,16 @@
                     </div>
                     <div class="col">
                         <div class="medicine">
-                            <h2 class="info-title">주문상품 및 결제정보</h2>
+                            <h2 class="info-title">내정보</h2>
                             <div class="medicine-detail">
                                 <div class="thumb">
                                     <div class="img">
                                         <img src="" alt="">
                                     </div>
+                                    <label for="thumb" class="thumbform">
+                                        <input type="file" id="thumb" hidden>
+                                        <span>사진변경</span>
+                                    </label>
                                 </div>
                                 <div class="info-table">
                                     <table>
@@ -103,109 +107,121 @@
                                         </colgroup>
                                         <tbody>
                                         <tr>
-                                            <th>주문일자</th>
+                                            <th>회원가입일</th>
                                             <td>
-                                                2020.01.01
+                                                <div class="input">
+                                                    <input type="text" value="2020.01.01." disabled>
+                                                </div>
                                             </td>
-                                            <th>상품명</th>
+                                            <th>회원구분</th>
                                             <td>
-                                                상품명
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <th>상품구분</th>
-                                            <td>
-                                                탕전처방
-                                            </td>
-                                            <th>구매수량</th>
-                                            <td>
-                                                1개
+                                                <div class="input">
+                                                    <input type="text" value="홍길동" disabled>
+                                                </div>
                                             </td>
                                         </tr>
                                         <tr>
-                                            <th>결제금액</th>
+                                            <th>아이디</th>
+                                            <td>
+                                                <div class="input">
+                                                    <input type="text" value="eonsang" disabled>
+                                                </div>
+                                            </td>
+                                            <th>이메일</th>
+                                            <td>
+                                                <div class="input">
+                                                    <input type="text" value="2eonhworking@gmail.com" disabled>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th>비밀번호</th>
                                             <td colspan="3">
-                                                123,000원(조제비:10,000원/ 배송비 3000원
+                                                <a href="" class="btn">비밀번호 변경</a>
                                             </td>
                                         </tr>
                                         <tr>
-                                            <th>결제수단</th>
-                                            <td>
-                                                신용카드
-                                                <a href="" class="btn ml-2">영수증출력</a>
-                                            </td>
-                                            <th>발송일자</th>
-                                            <td>
-                                                2020.01.01.
+                                            <th>휴대폰번호</th>
+                                            <td colspan="3">
+                                                <div class="flex">
+                                                    <div class="input w-64 mr-2" style="width: auto;">
+                                                        <input type="text" value="010-2583-2222" >
+                                                    </div>
+                                                    <a href="" class="btn" style="width: auto;">변경</a>
+                                                </div>
                                             </td>
                                         </tr>
                                         <tr>
-                                            <th>송장번호</th>
-                                            <td>
-                                                123123123123
-                                            </td>
-                                            <th>배송상태</th>
-                                            <td>
-                                                배송중
-                                                <a href="" class="ml-2 text-color6 font-bold">배송추적 ></a>
+                                            <th>주소</th>
+                                            <td colspan="3">
+                                                <div class="input">
+                                                    <input type="text" value="(12345) 경기도 고양시 일산동구 장항동 849 동양메이저타워 1234호" class="">
+                                                </div>
                                             </td>
                                         </tr>
                                         </tbody>
                                     </table>
-
-
-                                    <div class="order-detail mt-8">
-                                        <div class="row">
-                                            <div class="col">
-                                                <div class="order-detail__header">
-                                                    <strong>보내는 사람(의료기관)</strong>
-                                                </div>
-                                                <ul class="order-detail__list">
-                                                    <li>
-                                                        <span>발신인:</span> 플라이워크
-                                                    </li>
-                                                    <li>
-                                                        <span>연락처:</span> 010-2583-2222
-                                                    </li>
-                                                    <li>
-                                                        <span>휴대전화:</span> 010-2222-3333
-                                                    </li>
-                                                    <li class="block">
-                                                        <span class="">주소:</span>
-                                                        (12345) 경기도 고양시 일산동구 장항동 849   동양메이저타워 \
-                                                        1234호
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                            <div class="col">
-                                                <div class="order-detail__header">
-                                                    <strong>받는 사람(새로운 주소)</strong>
-                                                </div>
-                                                <ul class="order-detail__list">
-                                                    <li>
-                                                        <span>발신인:</span> 플라이워크
-                                                    </li>
-                                                    <li>
-                                                        <span>연락처:</span> 010-2583-2222
-                                                    </li>
-                                                    <li>
-                                                        <span>휴대전화:</span> 010-2222-3333
-                                                    </li>
-                                                    <li class="block">
-                                                        <span class="">주소:</span>
-                                                        (12345) 경기도 고양시 일산동구 장항동 849   동양메이저타워 \
-                                                        1234호
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
                                 </div>
                             </div>
 
-
                             <div class="action-box">
-                                <a href="" class="button small">이전</a>
+                                <a href="" class="button small">저장</a>
+                            </div>
+                        </div>
+
+                        <div class="mt-12">
+
+                            <div class="board-table-info items-end">
+                                <div class="links small">
+                                    <a href="" class="active">부계정 관리</a>
+                                    <a href="">한의원 신청</a>
+                                </div>
+                                <a href="" class="action-button">
+                                    + 부계정 추가
+                                </a>
+                            </div>
+
+                            <div class="board-table">
+                                <table>
+                                    <colgroup>
+                                        <col>
+                                        <col>
+                                        <col>
+                                        <col>
+                                        <col>
+                                        <col>
+                                        <col width="40">
+                                        <col width="50">
+                                    </colgroup>
+                                    <thead>
+                                    <tr>
+                                        <th class="text-center">아이디</th>
+                                        <th class="text-center">이름</th>
+                                        <th class="text-center">담당업무</th>
+                                        <th class="text-center">이메일</th>
+                                        <th class="text-center">전화번호</th>
+                                        <th class="text-center">등록일자</th>
+                                        <th class="text-center"></th>
+                                        <th class="text-center"></th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    <tr>
+                                        <td class="text-center">eonsange23</td>
+                                        <td class="text-center">홍길동</td>
+                                        <td class="text-center">조제</td>
+                                        <td class="text-center">2eonhworking@gmail.com</td>
+                                        <td class="text-center">010-2222-3333</td>
+                                        <td class="text-center">2020.01.01.</td>
+                                        <td class="text-center">
+                                            <a href=""><img src="./assets/images/icon-write-dd.png" alt="" class="inline"></a>
+                                        </td>
+                                        <td class="text-center">
+                                            <a href=""><img src="./assets/images/icon-document.png" alt="" class="inline"></a>
+                                        </td>
+                                    </tr>
+                                    </tbody>
+                                </table>
                             </div>
                         </div>
                     </div>

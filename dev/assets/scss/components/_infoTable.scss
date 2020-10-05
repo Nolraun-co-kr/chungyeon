@@ -13,6 +13,16 @@
       font-size: 14px;
       color:#888888;
       text-align: left;
+
+      .btn {
+        background:#222;
+        color:#fff;
+        display: inline-block;
+        line-height: 35px;
+        padding:0 1em;
+        font-size: 14px;
+        border-radius: 3px;
+      }
     }
     th {
       background:#f9f9f9;

@@ -11,18 +11,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cbdca2e9-b626-4f98-bc96-01cbd6d92563" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/dev/assets/scss/components/_boardDetail.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev/faqdetail.njk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev/faqlist.njk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev/noticedetail.njk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev/noticelist.njk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/scss/pages/_cart.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/scss/pages/_point.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/scss/pages/medicine.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/cart.njk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/chart.njk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/medicinedetail.njk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/medicinelist.njk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/myinfo.njk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/myinfo2.njk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/option.njk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/point.njk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/storage.njk" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/assets/scss/components/_form.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dev/assets/scss/components/_form.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/assets/scss/components/_infoTable.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dev/assets/scss/components/_infoTable.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/assets/scss/components/_links.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dev/assets/scss/components/_links.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dev/assets/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dev/assets/scss/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev/eventdetail.njk" beforeDir="false" afterPath="$PROJECT_DIR$/dev/eventdetail.njk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/assets/scss/pages/_accounts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dev/assets/scss/pages/_accounts.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/assets/scss/pages/_mypage.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dev/assets/scss/pages/_mypage.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/orderpayment.njk" beforeDir="false" afterPath="$PROJECT_DIR$/dev/orderpayment.njk" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/eventlist.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/eventdetail.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/eventdetail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/orderpayment.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/orderpayment.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,19 +54,20 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/dev" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="tasks.servers" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/dev/assets/images" />
-      <recent name="$PROJECT_DIR$/dev/assets/plugins" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/dev" />
       <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/dev" />
+      <recent name="$PROJECT_DIR$/dev/assets/images" />
+      <recent name="$PROJECT_DIR$/dev/assets/plugins" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -77,7 +89,7 @@
       <workItem from="1600491948801" duration="99000" />
       <workItem from="1601799591657" duration="14706000" />
       <workItem from="1601886811673" duration="598000" />
-      <workItem from="1601896568348" duration="1396000" />
+      <workItem from="1601896568348" duration="8992000" />
     </task>
     <servers />
   </component>
@@ -113,10 +125,10 @@
       <screen x="1920" y="143" width="1920" height="1057" />
     </state>
     <state x="2588" y="363" key="Vcs.Push.Dialog.v2/1920.143.1920.1057/0.23.1920.1177@1920.143.1920.1057" timestamp="1600084219262" />
-    <state x="2586" y="416" width="588" height="510" key="find.popup" timestamp="1601907553445">
+    <state x="2586" y="416" width="588" height="510" key="find.popup" timestamp="1601917180373">
       <screen x="1920" y="143" width="1920" height="1057" />
     </state>
-    <state x="2586" y="416" width="588" height="510" key="find.popup/1920.143.1920.1057/0.23.1920.1177@1920.143.1920.1057" timestamp="1601907553445" />
+    <state x="2586" y="416" width="588" height="510" key="find.popup/1920.143.1920.1057/0.23.1920.1177@1920.143.1920.1057" timestamp="1601917180373" />
     <state x="2543" y="376" width="672" height="678" key="search.everywhere.popup" timestamp="1600363360548">
       <screen x="1920" y="143" width="1920" height="1057" />
     </state>
