@@ -11,51 +11,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cbdca2e9-b626-4f98-bc96-01cbd6d92563" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/dev/assets/scss/components/_headerDropdown.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev/assets/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dev/assets/scss/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev/layout/header.njk" beforeDir="false" afterPath="$PROJECT_DIR$/dev/layout/header.njk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/assets/js/function.js" beforeDir="false" afterPath="$PROJECT_DIR$/dev/assets/js/function.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/assets/scss/components/_headerDropdown.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dev/assets/scss/components/_headerDropdown.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/bangjedetail.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/bangjedetail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/bangjelist.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/bangjelist.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/benefit.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/benefit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/bonchodetail.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/bonchodetail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/boncholist.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/boncholist.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/cart.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/chart.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/chart.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/cyber.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/cyber.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/detail2.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/detail2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/detail3.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/detail3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/eventdetail.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/eventdetail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/eventlist.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/eventlist.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/faqdetail.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/faqdetail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/faqlist.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/faqlist.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/freeimage.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/freeimage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/layout/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/layout/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/layout/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/layout/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/medicinedetail.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/medicinedetail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/medicinelist.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/medicinelist.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/myinfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/myinfo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/myinfo2.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/myinfo2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/noticedetail.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/noticedetail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/noticelist.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/noticelist.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/option.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/option.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/orderinfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/orderinfo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/orderlist.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/orderlist.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/orderpayment.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/orderpayment.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/orderuser.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/orderuser.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/point.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/point.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/privacy.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/privacy.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/signup1.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/signup1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/signup2.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/signup2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/signup3.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/signup3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/storage.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/storage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/tangjuninfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/tangjuninfo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/yacksok.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/yacksok.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/js/ui.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/js/ui.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +77,7 @@
       <workItem from="1601799591657" duration="14706000" />
       <workItem from="1601886811673" duration="598000" />
       <workItem from="1601896568348" duration="13594000" />
-      <workItem from="1606740821105" duration="1113000" />
+      <workItem from="1606740821105" duration="1401000" />
     </task>
     <servers />
   </component>

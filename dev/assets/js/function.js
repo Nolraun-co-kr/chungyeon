@@ -79,5 +79,13 @@
     $('.datepicker').datepicker({
       dateFormat: 'yy.mm.dd'
     });
+
+
+    $('.header').on('mouseenter', function(){
+      $('.header__dropdown').stop().slideDown();
+    })
+    $('.header').on('mouseleave', function(){
+      $('.header__dropdown').stop().slideUp();
+    })
   })
 })(window, $)

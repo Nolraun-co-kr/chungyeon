@@ -3,7 +3,9 @@
   left: 0;
   width: 100%;
   background:#fff;
+  z-index: 3000;
   @apply shadow-lg;
+  display: none;
 }
 .header__dropdown .wrap{
   padding: 40px 0;
